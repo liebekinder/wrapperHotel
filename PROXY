@@ -1,0 +1,193 @@
+//################################################################# // Fichier de configuration proxy automatique //################################################################# 
+function FindProxyForURL(url,host) {
+ clientIP="172.20.255.206"; if (dnsDomainIs(host, "127.0.0.1") || isPlainHostName(host) || dnsDomainIs(host, "localhost") || dnsDomainIs(host, ".wifi.univ-nantes.fr") || dnsDomainIs(host, ".cites-u.univ-nantes.fr") || dnsDomainIs(host, "nomade.univ-nantes.fr") || dnsDomainIs(host, "nomade2.univ-nantes.fr") || dnsDomainIs(host, "nomade.univ-nantes.prive") || dnsDomainIs(host, "nomade.etu.univ-nantes.fr") || dnsDomainIs(host, ".irt.univ-nantes.prive") || dnsDomainIs(host, ".iutsn.univ-nantes.prive") || shExpMatch(url,"*.presidence.univ-nantes.prive*") || dnsDomainIs(host, ".presidence.univ-nantes.fr") || dnsDomainIs(host, ".sig.univ-nantes.prive") || dnsDomainIs(host, "harpege.univ-nantes.fr") || dnsDomainIs(host, "harpege.univ-nantes.prive") || dnsDomainIs(host, "evo.caltech.edu") || dnsDomainIs(host, "intranet.sante.univ-nantes.prive") || dnsDomainIs(host, ".itun.sante.univ-nantes.prive") || dnsDomainIs(host, ".lioad.sante.univ-nantes.prive") || dnsDomainIs(host, "polytech.univ-nantes.prive") || dnsDomainIs(host, "iut-nantes.univ-nantes.prive") || isInNet (host, "193.52.104.60", "255.255.255.255") || isInNet (host, "172.19.0.0", "255.255.252.0") || isInNet (host, "192.168.0.0", "255.255.254.0") || isInNet (host, "192.168.2.0", "255.255.254.0") || isInNet (host, "192.168.4.0", "255.255.254.0") || isInNet (host, "192.168.6.0", "255.255.254.0") || isInNet (host, "192.168.8.0", "255.255.254.0") || isInNet (host, "192.168.10.0", "255.255.254.0") || isInNet (host, "192.168.12.0", "255.255.254.0") || isInNet (host, "192.168.14.0", "255.255.254.0") || isInNet (host, "192.168.16.0", "255.255.254.0") || isInNet (host, "192.168.18.0", "255.255.254.0") || isInNet (host, "192.168.20.0", "255.255.254.0") || isInNet (host, "192.168.22.0", "255.255.254.0") || isInNet (host, "192.168.24.0", "255.255.254.0") || isInNet (host, "192.168.26.0", "255.255.254.0")) { return "DIRECT"; }
+ if ( clientIP.substring(0,13) == "193.52.102.60" ) { return "PROXY cache.cites-u.univ-nantes.fr:3128"; }
+  if ( clientIP.substring(0,12) == "193.52.102.8" ) { return "PROXY 193.52.102.6:3128"; }
+   if ( clientIP.substring(0,12) == "193.52.102.9" ) { return "PROXY 193.52.102.7:3128"; }
+    if ( clientIP.substring(0,13) == "193.52.102.22" ) { return "PROXY 193.52.102.7:3128"; }
+     if ( clientIP.substring(0,13) == "193.52.107.24" ) { return "PROXY 193.52.107.19:3128"; }
+      if ( clientIP.substring(0,13) == "193.52.107.25" ) { return "PROXY 193.52.107.20:3128"; }
+       if ( clientIP.substring(0,13) == "193.52.107.46" ) { return "PROXY 193.52.107.42:3128"; }
+        if ( clientIP.substring(0,13) == "193.52.107.47" ) { return "PROXY 193.52.107.43:3128"; }
+         if (isInNet(clientIP,"172.19.0.0","255.255.252.0")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+          if (isInNet(clientIP,"172.19.16.0","255.255.252.0")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+           if (isInNet(clientIP,"172.19.32.0","255.255.252.0")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+            if (isInNet(clientIP,"172.19.64.0","255.255.248.0")) { return "PROXY cache.etu.univ-nantes.fr:3128"; }
+             if (isInNet(clientIP,"172.20.10.0","255.255.255.0")) { return "PROXY 193.52.104.20:3128"; }
+              if ( clientIP.substring(0,10) == "172.20.13." ) { return "PROXY 193.52.104.20:3128"; }
+               if ( clientIP.substring(0,10) == "172.20.17." ) { return "PROXY 193.52.104.20:3128"; }
+                if ( clientIP.substring(0,10) == "172.20.18." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; }
+                 if ( clientIP.substring(0,10) == "172.20.26." ) { return "PROXY 193.52.104.20:3128"; }
+                  if ( clientIP.substring(0,10) == "172.20.27." ) { return "PROXY 193.52.104.20:3128"; }
+                   if (isInNet(clientIP,"172.20.30.0","255.255.255.224")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+                    if (isInNet(clientIP,"172.20.30.32","255.255.255.224")) { return "PROXY cache.etu.univ-nantes.fr:3128"; }
+                     if (isInNet(clientIP,"172.20.30.64","255.255.255.224")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+                      if (isInNet(clientIP,"172.20.30.96","255.255.255.240")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+  if (isInNet(clientIP,"172.20.30.112","255.255.255.240")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+   if ( clientIP.substring(0,10) == "172.20.15." ) { return "PROXY 193.52.104.20:3128"; }
+    if ( clientIP.substring(0,10) == "172.20.38.") { return "PROXY 193.52.104.20:3128"; }
+     if ( clientIP.substring(0,9) == "172.21.4." ) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+      if ( clientIP.substring(0,10) == "172.21.43." ) { return "PROXY cache.ha.univ-nantes.fr:3128"; } 
+      if ( clientIP.substring(0,10) == "172.21.47." ) { return "PROXY cache.ha.univ-nantes.fr:3128"; } 
+      if ( clientIP.substring(0,10) == "172.21.55." ) { return "PROXY cache.ha.univ-nantes.fr:3128"; } 
+      if ( clientIP.substring(0,10) == "172.21.63." ) { return "PROXY cache.ha.univ-nantes.fr:3128"; } 
+      if ( clientIP.substring(0,11) == "172.21.130." ) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+       if ( clientIP.substring(0,9) == "172.21.14" ) { return "PROXY cache.ha.univ-nantes.fr:3128"; } 
+       if ( clientIP.substring(0,9) == "172.21.15" ) { return "PROXY cache.ha.univ-nantes.fr:3128"; } 
+       if ( clientIP.substring(0,9) == "172.21.16" ) { return "PROXY 172.21.160.20:3128"; } 
+       if ( clientIP.substring(0,11) == "172.20.128." ) { return "PROXY 193.52.104.20:3128"; } 
+       if ( clientIP.substring(0,11) == "172.20.129." ) { return "PROXY 193.52.104.20:3128"; } 
+       if ( clientIP.substring(0,11) == "172.20.131." ) { return "PROXY 193.52.104.20:3128"; } 
+       if ( clientIP.substring(0,11) == "172.20.134." ) { return "PROXY 193.52.104.20:3128"; } 
+       if ( clientIP.substring(0,11) == "172.20.135." ) { return "PROXY 193.52.104.20:3128"; } 
+       if (isInNet(clientIP,"172.16.8.0","255.255.254.0")) { return "PROXY cache.univ-nantes.fr:3128"; } 
+       if ( clientIP.substring(0,7) == "172.16." ) { return "PROXY 172.16.1.12:3128; PROXY 172.16.1.14:3128"; } 
+       if ( clientIP.substring(0,10) == "172.18.16." ) { return "PROXY 193.52.104.20:3128"; } 
+       if ( clientIP.substring(0,10) == "172.18.33." ) { return "PROXY 193.52.104.20:3128"; } 
+       
+ ( clientIP.substring(0,10) == "172.18.37." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,10) == "172.18.39." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,10) == "172.18.45." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,10) == "172.18.52." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,10) == "172.18.54." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+ if ( clientIP.substring(0,10) == "172.18.55." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,10) == "172.18.63." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,10) == "172.18.67." ) { return "PROXY 193.52.104.20:3128"; } 
+ if (isInNet(clientIP,"172.18.100.0","255.255.255.0")) { return "PROXY cache.univ-nantes.fr:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.116." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.123." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.150." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.193." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.196." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.200." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.201." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.202." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.203." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.204." ) { return "PROXY 193.52.104.20:3128"; }
+  if ( clientIP.substring(0,11) == "172.18.221." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.18.222." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.18.223." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,11) == "172.18.224." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,11) == "172.18.240." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.18.240." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.18.241." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.18.242." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.18.243." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.18.244." ) { return "PROXY 193.52.104.20:3128"; } 
+  
+ ( clientIP.substring(0,11) == "172.18.246." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.18.247." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,10) == "172.20.24." ) { return "PROXY 193.52.104.20:3128"; }
+  if (isInNet(clientIP,"172.17.6.0","255.255.255.0")) { return "PROXY cache.etu.univ-nantes.fr:3128"; }
+   if (isInNet(clientIP,"172.17.7.0","255.255.255.0")) { return "PROXY cache.ha.univ-nantes.fr:3128"; } 
+   if (isInNet(clientIP,"172.17.10.0","255.255.255.0")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+    if (isInNet(clientIP,"172.17.38.64","255.255.255.240")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+     if (isInNet(clientIP,"172.17.38.160","255.255.255.240")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+      if ( clientIP.substring(0,11) == "172.17.101." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+      if ( clientIP.substring(0,11) == "172.17.102." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+      if ( clientIP.substring(0,11) == "172.17.103." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+      
+ ( clientIP.substring(0,11) == "172.17.104." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.105." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.106." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+ 
+ ( clientIP.substring(0,11) == "172.17.107." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.108." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.128." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.129." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.130." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.131." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.132." ) { return "PROXY 193.52.104.20:3128"; } 
+ 
+ ( clientIP.substring(0,11) == "172.17.133." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.134." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.135." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.17.136." ) { return "PROXY 193.52.104.20:3128"; }
+  if ( clientIP.substring(0,11) == "172.17.227." ) { return "PROXY 193.52.104.20:3128"; }
+   if (isInNet(clientIP,"172.17.230.0","255.255.255.224")) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+   if ( clientIP.substring(0,11) == "172.17.231." ) { return "PROXY 193.52.104.20:3128"; } 
+   if (isInNet(clientIP,"172.17.248.0","255.255.255.0")) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+   if ( clientIP.substring(0,7) == "172.17." ) { return "PROXY 193.52.104.20:3128"; } 
+   if ( clientIP.substring(0,10) == "172.20.16." ) { return "PROXY 193.52.104.20:3128"; } 
+   if ( clientIP.substring(0,10) == "172.20.36." ) { return "PROXY 193.52.104.20:3128"; } 
+   if (isInNet(clientIP,"172.22.16.0","255.255.255.128")) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+   if (isInNet(clientIP,"172.22.16.128","255.255.255.128")) { return "PROXY cache.univ-nantes.fr:3128"; }
+    if (isInNet(clientIP,"172.22.16.128","255.255.255.128")) { return "PROXY cache.univ-nantes.fr:3128"; } 
+    if ( clientIP.substring(0,10) == "172.22.34." ) { return "PROXY 193.52.104.20:3128"; } 
+    if ( clientIP.substring(0,10) == "172.22.35." ) { return "PROXY 193.52.104.20:3128"; } 
+    if ( clientIP.substring(0,10) == "172.22.36." ) { return "PROXY 193.52.104.20:3128"; } 
+    if ( clientIP.substring(0,10) == "172.22.37." ) { return "PROXY 193.52.104.20:3128"; } 
+    if (isInNet(clientIP,"172.22.38.0","255.255.255.0")) { return "PROXY 193.52.104.30:3128"; }
+     if ( clientIP.substring(0,10) == "172.22.39." ) { return "PROXY 193.52.104.20:3128"; } 
+     if (isInNet(clientIP,"172.22.40.0","255.255.255.128")) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+     if (isInNet(clientIP,"172.22.40.128","255.255.255.128")) { return "PROXY cache.ha.univ-nantes.fr:3128"; }
+      if ( clientIP.substring(0,10) == "172.22.41." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+      if ( clientIP.substring(0,10) == "172.22.42." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+      if (isInNet(clientIP,"172.22.45.0","255.255.255.0")) { return "PROXY 172.22.35.100:3128"; } 
+      if ( clientIP.substring(0,10) == "172.22.46." ) { return "PROXY 193.52.104.20:3128"; } 
+      if ( clientIP.substring(0,10) == "172.22.64." ) { return "PROXY 193.52.104.20:3128"; } 
+      if ( clientIP.substring(0,10) == "172.22.70." ) { return "PROXY 193.52.104.20:3128"; } 
+      if ( clientIP.substring(0,10) == "172.22.81." ) { return "PROXY 193.52.104.20:3128"; } 
+      
+ ( clientIP.substring(0,10) == "172.22.96." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,10) == "172.22.97." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.22.130." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.22.131." ) { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,11) == "172.22.136." ) { return "PROXY 193.52.104.20:3128"; } 
+ 
+ ( clientIP.substring(0,11) == "172.22.137." ) { return "PROXY 193.52.104.20:3128"; }
+  if ( clientIP.substring(0,11) == "172.22.138." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.22.139." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.22.144." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,11) == "172.22.145." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,11) == "172.22.146." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,11) == "172.22.147." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,9) == "172.25.1." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,9) == "172.25.2." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,9) == "172.25.3." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,9) == "172.25.4." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,9) == "172.25.5." ) { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,9) == "172.25.8." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,9) == "172.25.9." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,10) == "172.25.10." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,10) == "172.25.11." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,10) == "172.25.12." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,10) == "172.25.13." ) { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,10) == "172.20.25.") { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.20.246.") { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.20.247.") { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,11) == "172.20.252.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,11) == "172.20.253.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,11) == "172.20.254.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,11) == "172.20.255.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,9) == "172.20.4.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,8) == "10.44.2.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,8) == "10.49.2.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,8) == "10.53.2.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,8) == "10.72.6.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,8) == "10.85.2.") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+  if ( clientIP.substring(0,8) == "10.44.3.") { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,8) == "10.49.3.") { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,8) == "10.53.3.") { return "PROXY 193.52.104.20:3128"; } 
+  if ( clientIP.substring(0,8) == "10.72.3.") { return "PROXY 193.52.104.20:3128"; } 
+  
+ ( clientIP.substring(0,8) == "10.85.3.") { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,8) == "10.44.7.") { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,8) == "10.72.7.") { return "PROXY 193.52.104.20:3128"; } 
+ if ( clientIP.substring(0,16) == "2001:660:7220:0:") { return "PROXY cache.ha.univ-nantes.fr:3128"; } 
+ if ( clientIP.substring(0,18) == "2001:660:7220:389:") { return "PROXY cache.ha.univ-nantes.fr:3128"; } 
+ if ( clientIP.substring(0,18) == "2001:660:7220:38a:") { return "PROXY cache.etu.univ-nantes.fr:3128"; } 
+ else { return "DIRECT"; } } 
+ 
+ 
+ 
+ #######################################################################################################
+ 
+ Commande Git Proxy
+  Ouvrir la console git:
+  
+ git config --global http.proxy "http://cache.etu.univ-nantes.fr:3128"
+ 
+ (changer le proxy en fonction de l'endroit: à la fac, ça ne devrait pas changer).
+ 
+ De retour chez soi: git config --global --unset-all http.proxy

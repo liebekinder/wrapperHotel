@@ -1,0 +1,879 @@
+<http://example.org/61> <http://example.org/hasPostalCode> "44100" .
+<http://example.org/61> <http://example.org/hasAddress> "78/80, Route de Vannes" .
+<http://example.org/61> <http://example.org/hasWebSite> "www.hotel-lelongchamp.fr" .
+<http://example.org/61> <http://example.org/hasMail> "hubert.courteille@wanadoo.fr" .
+<http://example.org/61> <http://example.org/hasTown> "NANTES" .
+<http://example.org/61> <http://example.org/hasName> "LONGCHAMP (LE)" .
+<http://example.org/127> <http://example.org/hasPostalCode> "44570" .
+<http://example.org/127> <http://example.org/hasAddress> "5, rue la fontaine au brun" .
+<http://example.org/127> <http://example.org/hasWebSite> "www.ibisatlantique.fr" .
+<http://example.org/127> <http://example.org/hasMail> "H0858@accor.com" .
+<http://example.org/127> <http://example.org/hasTown> "TRIGNAC" .
+<http://example.org/127> <http://example.org/hasName> "IBIS " .
+<http://example.org/33> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/33> <http://example.org/hasAddress> "106, avenue de Lattre de Tassigny" .
+<http://example.org/33> <http://example.org/hasWebSite> "www.hotelastrolabe.fr" .
+<http://example.org/33> <http://example.org/hasMail> "hotelastrolabe@hotmail.fr" .
+<http://example.org/33> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/33> <http://example.org/hasName> "ASTROLABE" .
+<http://example.org/74> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/74> <http://example.org/hasAddress> "5, rue du Chapeau Rouge" .
+<http://example.org/74> <http://example.org/hasWebSite> "www.hoteldescolonies.fr" .
+<http://example.org/74> <http://example.org/hasMail> "hoteldescolonies@free.fr" .
+<http://example.org/74> <http://example.org/hasTown> "NANTES" .
+<http://example.org/74> <http://example.org/hasName> "IBIS STYLE NANTES PLACE GRASLIN " .
+<http://example.org/46> <http://example.org/hasPostalCode> "44420" .
+<http://example.org/46> <http://example.org/hasAddress> "11 boulevard Bellanger" .
+<http://example.org/46> <http://example.org/hasWebSite> "laturballe.free.fr/hotel-chantsdailes" .
+<http://example.org/46> <http://example.org/hasMail> "hotel.chantsdailes@wanadoo.fr" .
+<http://example.org/46> <http://example.org/hasTown> "LA TURBALLE" .
+<http://example.org/46> <http://example.org/hasName> "LES CHANTS D'AILES" .
+<http://example.org/18> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/18> <http://example.org/hasAddress> "6, avenue Pierre Loti" .
+<http://example.org/18> <http://example.org/hasWebSite> "www.lucienbarriere.com" .
+<http://example.org/18> <http://example.org/hasMail> "royalthalasso@lucienbarriere.com" .
+<http://example.org/18> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/18> <http://example.org/hasName> "ROYAL-THALASSO-BARRIERE" .
+<http://example.org/87> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/87> <http://example.org/hasAddress> "4, Rue du Bouffay" .
+<http://example.org/87> <http://example.org/hasWebSite> "www.hotel-saintdaniel.com" .
+<http://example.org/87> <http://example.org/hasMail> "hotel.st.daniel@wanadoo.fr" .
+<http://example.org/87> <http://example.org/hasTown> "NANTES" .
+<http://example.org/87> <http://example.org/hasName> "SAINT DANIEL" .
+<http://example.org/59> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/59> <http://example.org/hasAddress> "3 All\u00E9e Duquesne" .
+<http://example.org/59> <http://example.org/hasWebSite> "www.hotel-laperouse.fr" .
+<http://example.org/59> <http://example.org/hasMail> "information@hotel-laperouse.fr" .
+<http://example.org/59> <http://example.org/hasTown> "NANTES" .
+<http://example.org/59> <http://example.org/hasName> "LA PEROUSE" .
+<http://example.org/121> <http://example.org/hasPostalCode> "44980" .
+<http://example.org/121> <http://example.org/hasAddress> "16, Rue Marcel Dassault" .
+<http://example.org/121> <http://example.org/hasWebSite> "www.hotels-residences.fr" .
+<http://example.org/121> <http://example.org/hasMail> "info@relaisdenantes.com" .
+<http://example.org/121> <http://example.org/hasTown> "SAINTE-LUCE-SUR-LOIRE" .
+<http://example.org/121> <http://example.org/hasName> "LE RELAIS DE NANTES - PREMIER PRIX HOTEL" .
+<http://example.org/134> <http://example.org/hasPostalCode> "44300" .
+<http://example.org/134> <http://example.org/hasAddress> "11 rue du Chateau" .
+<http://example.org/134> <http://example.org/hasWebSite> "www.ohlaloireatlantique.com" .
+<http://example.org/134> <http://example.org/hasMail> "info@ohlaloireatlantique.com" .
+<http://example.org/134> <http://example.org/acceptHearingImpairment> "oui" .
+<http://example.org/134> <http://example.org/hasTown> "NANTES" .
+<http://example.org/134> <http://example.org/acceptVisualImpairment> "oui" .
+<http://example.org/134> <http://example.org/hasName> "HOTEL TEST" .
+<http://example.org/40> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/40> <http://example.org/hasAddress> "28, boulevard Docteur Ren\u00E9 Dubois" .
+<http://example.org/40> <http://example.org/hasWebSite> "www.les-pleiades.com" .
+<http://example.org/40> <http://example.org/hasMail> "les-pleiades@magic.fr" .
+<http://example.org/40> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/40> <http://example.org/hasName> "PLEIADES" .
+<http://example.org/106> <http://example.org/hasPostalCode> "44800" .
+<http://example.org/106> <http://example.org/hasAddress> "1, Rue des Piliers de la Chauvini\u00E8re" .
+<http://example.org/106> <http://example.org/hasWebSite> "www.aulizen.fr" .
+<http://example.org/106> <http://example.org/hasMail> "contact@aulizen.fr" .
+<http://example.org/106> <http://example.org/hasTown> "SAINT-HERBLAIN" .
+<http://example.org/106> <http://example.org/hasName> "BALLADINS NANTES SAINT HERBLAIN" .
+<http://example.org/12> <http://example.org/hasPostalCode> "44220" .
+<http://example.org/12> <http://example.org/hasAddress> "Route de Vannes" .
+<http://example.org/12> <http://example.org/hasWebSite> "www.etaphotel.com" .
+<http://example.org/12> <http://example.org/hasMail> "H2527@accor.com" .
+<http://example.org/12> <http://example.org/hasTown> "COUERON" .
+<http://example.org/12> <http://example.org/hasName> "ETAP HOTEL NANTES OUEST" .
+<http://example.org/147> <http://example.org/hasPostalCode> "44300" .
+<http://example.org/147> <http://example.org/hasAddress> "6, Rue du Chemin Rouge" .
+<http://example.org/147> <http://example.org/hasWebSite> "www.quickpalace.com" .
+<http://example.org/147> <http://example.org/hasMail> "quickpalace.nantes@distelcom.fr" .
+<http://example.org/147> <http://example.org/hasTown> "NANTES" .
+<http://example.org/147> <http://example.org/hasName> "QUICK PALACE" .
+<http://example.org/81> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/81> <http://example.org/hasAddress> "19, Quai de la Fosse" .
+<http://example.org/81> <http://example.org/hasTown> "NANTES" .
+<http://example.org/81> <http://example.org/hasName> "BOURSE (DE LA)" .
+<http://example.org/119> <http://example.org/hasPostalCode> "44230" .
+<http://example.org/119> <http://example.org/hasAddress> "10, Avenue Jules Verne" .
+<http://example.org/119> <http://example.org/hasWebSite> "www.hotelbb.com" .
+<http://example.org/119> <http://example.org/hasMail> "bb_4342@hotelbb.com" .
+<http://example.org/119> <http://example.org/hasTown> "SAINT-SEBASTIEN-SUR-LOIRE" .
+<http://example.org/119> <http://example.org/hasName> "B&B H\u00D4TEL NANTES SAINT SEBASTIEN" .
+<http://example.org/53> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/53> <http://example.org/hasAddress> "26 bis, Rue Scribe" .
+<http://example.org/53> <http://example.org/hasWebSite> "www.hotel-nantes.fr" .
+<http://example.org/53> <http://example.org/hasMail> "amiral@hotel-nantes.fr" .
+<http://example.org/53> <http://example.org/hasTown> "NANTES" .
+<http://example.org/53> <http://example.org/hasName> "AMIRAL" .
+<http://example.org/4> <http://example.org/hasPostalCode> "44340" .
+<http://example.org/4> <http://example.org/hasAddress> "Parc de la Bouvre" .
+<http://example.org/4> <http://example.org/hasWebSite> "www.hotelformule1.com" .
+<http://example.org/4> <http://example.org/hasMail> "H2430@accor.com" .
+<http://example.org/4> <http://example.org/hasTown> "BOUGUENAIS" .
+<http://example.org/4> <http://example.org/hasName> "HOTEL F1 - BOUGUENAIS" .
+<http://example.org/25> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/25> <http://example.org/hasAddress> "65, avenue Lajarrige" .
+<http://example.org/25> <http://example.org/hasWebSite> "www.hostellerie-du-bois.com" .
+<http://example.org/25> <http://example.org/hasMail> "hostellerie-du-bois@wanadoo.fr" .
+<http://example.org/25> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/25> <http://example.org/hasName> "HOSTELLERIE DU BOIS" .
+<http://example.org/94> <http://example.org/hasPostalCode> "44210" .
+<http://example.org/94> <http://example.org/hasAddress> "44 rue du G\u00E9n\u00E9ral de Gaulle" .
+<http://example.org/94> <http://example.org/hasWebSite> "www.brithotel.fr/fr/hotel-brit-hotel-les-alizes-pornic-c0-93608-148-0.html" .
+<http://example.org/94> <http://example.org/hasMail> "alizes@brithotel.fr" .
+<http://example.org/94> <http://example.org/hasTown> "PORNIC" .
+<http://example.org/94> <http://example.org/hasName> "BRIT HOTEL LES ALIZES" .
+<http://example.org/66> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/66> <http://example.org/hasAddress> "4 Rue du Cou\u00EBdic" .
+<http://example.org/66> <http://example.org/hasWebSite> "www.mercure.com/mercure/" .
+<http://example.org/66> <http://example.org/hasMail> "H1985@accor-hotels.com" .
+<http://example.org/66> <http://example.org/hasTown> "NANTES" .
+<http://example.org/66> <http://example.org/hasName> "HOTEL MERCURE NANTES CENTRAL" .
+<http://example.org/38> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/38> <http://example.org/hasAddress> "7, avenue des Cormorans" .
+<http://example.org/38> <http://example.org/hasMail> "palmeraie@otelissim.com" .
+<http://example.org/38> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/38> <http://example.org/hasName> "LA PALMERAIE" .
+<http://example.org/79> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/79> <http://example.org/hasAddress> "3, All\u00E9e du Commandant Charcot" .
+<http://example.org/79> <http://example.org/hasWebSite> "www.hotel-terminus-nantes.com" .
+<http://example.org/79> <http://example.org/hasMail> "contact@hotel-terminus-nantes.com" .
+<http://example.org/79> <http://example.org/hasTown> "NANTES" .
+<http://example.org/79> <http://example.org/hasName> "TERMINUS" .
+<http://example.org/100> <http://example.org/hasPostalCode> "44800" .
+<http://example.org/100> <http://example.org/hasAddress> "rue du Moulin de la Rousseli\u00E8re - D201" .
+<http://example.org/100> <http://example.org/hasMail> "bb_4504@hotelbb.com" .
+<http://example.org/100> <http://example.org/hasTown> "SAINT-HERBLAIN" .
+<http://example.org/100> <http://example.org/hasName> "B&B HOTEL NANTES SAINT HERBLAIN" .
+<http://example.org/141> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/141> <http://example.org/hasAddress> "11, Rue Fourcroy" .
+<http://example.org/141> <http://example.org/hasWebSite> "www.hotel-cambronne.com" .
+<http://example.org/141> <http://example.org/hasMail> "contact@hotel-cambronne.com" .
+<http://example.org/141> <http://example.org/hasTown> "NANTES" .
+<http://example.org/141> <http://example.org/hasName> "CAMBRONNE (LE)" .
+<http://example.org/113> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/113> <http://example.org/hasAddress> "33, rue Jean Jaur\u00E8s" .
+<http://example.org/113> <http://example.org/hasWebSite> "www.hotel-ledauphin-stnazaire.com" .
+<http://example.org/113> <http://example.org/hasMail> "hoteldauphin@wanadoo.fr" .
+<http://example.org/113> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/113> <http://example.org/hasName> "LE DAUPHIN" .
+<http://example.org/60> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/60> <http://example.org/hasAddress> "12 all\u00E9e Duquesne" .
+<http://example.org/60> <http://example.org/hasWebSite> "www.hotelduquesne-nantes.com" .
+<http://example.org/60> <http://example.org/hasMail> "hotel.duquesne@wanadoo.fr" .
+<http://example.org/60> <http://example.org/hasTown> "NANTES" .
+<http://example.org/60> <http://example.org/hasName> "DUQUESNE" .
+<http://example.org/126> <http://example.org/hasPostalCode> "44570" .
+<http://example.org/126> <http://example.org/hasAddress> "Rue des Aigrettes" .
+<http://example.org/126> <http://example.org/hasWebSite> "www.hotelf1.com" .
+<http://example.org/126> <http://example.org/hasMail> "H2223@accor.com" .
+<http://example.org/126> <http://example.org/hasTown> "TRIGNAC" .
+<http://example.org/126> <http://example.org/acceptVisualImpairment> "oui" .
+<http://example.org/126> <http://example.org/hasName> "HOTEL F1" .
+<http://example.org/32> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/32> <http://example.org/hasAddress> "1, bis avenue de La Concorde" .
+<http://example.org/32> <http://example.org/hasWebSite> "www.hotel-la-concorde.com" .
+<http://example.org/32> <http://example.org/hasMail> "info@hotel-la-concorde.com" .
+<http://example.org/32> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/32> <http://example.org/hasName> "CONCORDE" .
+<http://example.org/73> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/73> <http://example.org/hasAddress> "3, Rue Anatole Le Braz" .
+<http://example.org/73> <http://example.org/hasWebSite> "www.coeurdeloirehotel.com" .
+<http://example.org/73> <http://example.org/hasMail> "contact@coeurdeloirehotel.com" .
+<http://example.org/73> <http://example.org/hasTown> "NANTES" .
+<http://example.org/73> <http://example.org/hasName> "COEUR DE LOIRE" .
+<http://example.org/139> <http://example.org/hasPostalCode> "44800" .
+<http://example.org/139> <http://example.org/hasAddress> "29, rue Bobby Sands" .
+<http://example.org/139> <http://example.org/hasWebSite> "www.hotel-lecolisee.com" .
+<http://example.org/139> <http://example.org/hasMail> "reservations@hotel-lecolisee.com" .
+<http://example.org/139> <http://example.org/hasTown> "SAINT-HERBLAIN" .
+<http://example.org/139> <http://example.org/hasName> "BEST WESTERN PLUS LE COLISEE" .
+<http://example.org/45> <http://example.org/hasPostalCode> "44118" .
+<http://example.org/45> <http://example.org/hasAddress> "4, rue de la Guillauderie" .
+<http://example.org/45> <http://example.org/hasWebSite> "www.delmar-hotel.com" .
+<http://example.org/45> <http://example.org/hasMail> "delmarhotel@orange.fr" .
+<http://example.org/45> <http://example.org/hasTown> "LA CHEVROLIERE" .
+<http://example.org/45> <http://example.org/hasName> "DELMAR HOTEL" .
+<http://example.org/17> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/17> <http://example.org/hasAddress> "5 esplanade Lucien Barri\u00E8re" .
+<http://example.org/17> <http://example.org/hasWebSite> "www.hermitage-barriere.com" .
+<http://example.org/17> <http://example.org/hasMail> "hermitage@lucienbarriere.com" .
+<http://example.org/17> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/17> <http://example.org/hasName> "HERMITAGE BARRIERE" .
+<http://example.org/86> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/86> <http://example.org/hasAddress> "11, Rue Beauregard" .
+<http://example.org/86> <http://example.org/hasWebSite> "www.hotel-renova.com" .
+<http://example.org/86> <http://example.org/hasMail> "hotelrenova@hotmail.com" .
+<http://example.org/86> <http://example.org/hasTown> "NANTES" .
+<http://example.org/86> <http://example.org/hasName> "RENOVA" .
+<http://example.org/58> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/58> <http://example.org/hasAddress> "8 All\u00E9e du Commandant Charcot" .
+<http://example.org/58> <http://example.org/hasWebSite> "www.kyriadnantescentre.fr" .
+<http://example.org/58> <http://example.org/hasMail> "kyriad-nantescentre@wanadoo.fr" .
+<http://example.org/58> <http://example.org/hasTown> "NANTES" .
+<http://example.org/58> <http://example.org/hasName> "KYRIAD NANTES GARE" .
+<http://example.org/9> <http://example.org/hasPostalCode> "44190" .
+<http://example.org/9> <http://example.org/hasWebSite> "www.hotel-delagare.fr" .
+<http://example.org/9> <http://example.org/hasMail> "petit-sa@wanadoo.fr" .
+<http://example.org/9> <http://example.org/hasTown> "CLISSON" .
+<http://example.org/9> <http://example.org/hasName> "LA GARE" .
+<http://example.org/99> <http://example.org/hasPostalCode> "44250" .
+<http://example.org/99> <http://example.org/hasAddress> "Parc d'Activit\u00E9s de la Guerche" .
+<http://example.org/99> <http://example.org/hasWebSite> "www.hotelestuaire.fr" .
+<http://example.org/99> <http://example.org/hasMail> "hotelestuaire@wanadoo.fr" .
+<http://example.org/99> <http://example.org/hasTown> "SAINT-BREVIN" .
+<http://example.org/99> <http://example.org/hasName> "L'ESTUAIRE" .
+<http://example.org/120> <http://example.org/hasPostalCode> "44230" .
+<http://example.org/120> <http://example.org/hasAddress> "1, Avenue Jules Verne" .
+<http://example.org/120> <http://example.org/hasWebSite> "www.premiereclasse.fr" .
+<http://example.org/120> <http://example.org/hasMail> "nantes.stsebastien@premiereclasse.fr" .
+<http://example.org/120> <http://example.org/hasTown> "SAINT-SEBASTIEN-SUR-LOIRE" .
+<http://example.org/120> <http://example.org/hasName> "PREMIERE CLASSE - SAINT SEBASTIEN SUR LOIRE" .
+<http://example.org/133> <http://example.org/hasPostalCode> "44120" .
+<http://example.org/133> <http://example.org/hasAddress> "51 route de Nantes" .
+<http://example.org/133> <http://example.org/hasWebSite> "www.hotel-lebeautour.com" .
+<http://example.org/133> <http://example.org/hasMail> "dauvergne.jean-luc@orange.fr" .
+<http://example.org/133> <http://example.org/hasTown> "VERTOU" .
+<http://example.org/133> <http://example.org/hasName> "LE BEAUTOUR" .
+<http://example.org/105> <http://example.org/hasPostalCode> "44800" .
+<http://example.org/105> <http://example.org/hasAddress> "8 rue des cochardi\u00E8res" .
+<http://example.org/105> <http://example.org/hasWebSite> "www.atlantys-hotel.fr" .
+<http://example.org/105> <http://example.org/hasMail> "atlantys.hotel@wanadoo.fr" .
+<http://example.org/105> <http://example.org/hasTown> "SAINT-HERBLAIN" .
+<http://example.org/105> <http://example.org/hasName> "ATLANTYS HOTEL" .
+<http://example.org/11> <http://example.org/hasPostalCode> "44190" .
+<http://example.org/11> <http://example.org/hasAddress> "8 rue St Antoine" .
+<http://example.org/11> <http://example.org/hasWebSite> "www.hotel-villa-saint-antoine.com" .
+<http://example.org/11> <http://example.org/hasMail> "contact@hotel-villa-saint-antoine.com" .
+<http://example.org/11> <http://example.org/hasTown> "CLISSON" .
+<http://example.org/11> <http://example.org/hasName> "BEST WESTERN VILLA SAINT ANTOINE" .
+<http://example.org/146> <http://example.org/hasPostalCode> "44470" .
+<http://example.org/146> <http://example.org/hasAddress> "8 rue de l'H\u00F4tellerie" .
+<http://example.org/146> <http://example.org/hasWebSite> "www.novella-nantes.com" .
+<http://example.org/146> <http://example.org/hasMail> "adda2@free.fr" .
+<http://example.org/146> <http://example.org/hasTown> "CARQUEFOU" .
+<http://example.org/146> <http://example.org/hasName> "NOVELLA NANTES CARQUEFOU" .
+<http://example.org/80> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/80> <http://example.org/hasAddress> "17, Rue Geoffroy Drouet" .
+<http://example.org/80> <http://example.org/hasWebSite> "www.hotelabatjour.com" .
+<http://example.org/80> <http://example.org/hasMail> "abat.jour@wanadoo.fr" .
+<http://example.org/80> <http://example.org/hasTown> "NANTES" .
+<http://example.org/80> <http://example.org/hasName> "ABAT JOUR" .
+<http://example.org/118> <http://example.org/hasPostalCode> "44460" .
+<http://example.org/118> <http://example.org/hasAddress> "42, avenue Jean Burel" .
+<http://example.org/118> <http://example.org/hasWebSite> "www.bel-hotel.com" .
+<http://example.org/118> <http://example.org/hasMail> "bienvenue@bel-hotel.com" .
+<http://example.org/118> <http://example.org/hasTown> "SAINT-NICOLAS-DE-REDON" .
+<http://example.org/118> <http://example.org/hasName> "BEL HOTEL" .
+<http://example.org/52> <http://example.org/hasPostalCode> "44522" .
+<http://example.org/52> <http://example.org/hasAddress> "630 rue de l'Industrie" .
+<http://example.org/52> <http://example.org/hasWebSite> "www.etaphotel.com" .
+<http://example.org/52> <http://example.org/hasMail> "h6559@accor.com" .
+<http://example.org/52> <http://example.org/hasTown> "MESANGER" .
+<http://example.org/52> <http://example.org/hasName> "ETAP HOTEL ANCENIS" .
+<http://example.org/3> <http://example.org/hasPostalCode> "44346" .
+<http://example.org/3> <http://example.org/hasAddress> "Lat\u00E9co\u00E8re" .
+<http://example.org/3> <http://example.org/hasWebSite> "www.hotelbb.com" .
+<http://example.org/3> <http://example.org/hasTown> "BOUGUENAIS" .
+<http://example.org/3> <http://example.org/hasName> "B&B H\u00D4TEL NANTES AEROPORT" .
+<http://example.org/24> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/24> <http://example.org/hasAddress> "145, avenue de Lattre de Tassigny" .
+<http://example.org/24> <http://example.org/hasWebSite> "www.villacapdail.com" .
+<http://example.org/24> <http://example.org/hasMail> "villacapdail@wanadoo.fr" .
+<http://example.org/24> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/24> <http://example.org/hasName> "VILLA CAP D'AIL" .
+<http://example.org/93> <http://example.org/hasPostalCode> "44210" .
+<http://example.org/93> <http://example.org/hasAddress> "70 quai Leray" .
+<http://example.org/93> <http://example.org/hasWebSite> "www.hotel-beausoleil-pornic.com" .
+<http://example.org/93> <http://example.org/hasMail> "contact@hotel-beausoleil-pornic.com" .
+<http://example.org/93> <http://example.org/hasTown> "PORNIC" .
+<http://example.org/93> <http://example.org/hasName> "BEAU SOLEIL" .
+<http://example.org/65> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/65> <http://example.org/hasAddress> "7 Rue Saint Nicolas" .
+<http://example.org/65> <http://example.org/hasWebSite> "www.hotel-saintpatrick.com" .
+<http://example.org/65> <http://example.org/hasMail> "hotel.saint-patrick@orange.fr" .
+<http://example.org/65> <http://example.org/hasTown> "NANTES" .
+<http://example.org/65> <http://example.org/hasName> "SAINT PATRICK" .
+<http://example.org/37> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/37> <http://example.org/hasAddress> "22, avenue Georges Clemenceau" .
+<http://example.org/37> <http://example.org/hasMail> "f.senet@otelissim.com" .
+<http://example.org/37> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/37> <http://example.org/hasName> "MARINI" .
+<http://example.org/78> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/78> <http://example.org/hasAddress> "38, Rue de Richebourg" .
+<http://example.org/78> <http://example.org/hasWebSite> "www.hotelsurcouf.fr" .
+<http://example.org/78> <http://example.org/hasMail> "hotelsurcouf@wanadoo.fr" .
+<http://example.org/78> <http://example.org/hasTown> "NANTES" .
+<http://example.org/78> <http://example.org/hasName> "SURCOUF (LE)" .
+<http://example.org/140> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/140> <http://example.org/hasAddress> "1 Rue de Belfort" .
+<http://example.org/140> <http://example.org/hasWebSite> "www.brithotel.fr" .
+<http://example.org/140> <http://example.org/hasMail> "belfort@brithotel.fr" .
+<http://example.org/140> <http://example.org/hasTown> "NANTES" .
+<http://example.org/140> <http://example.org/hasName> "BRIT HOTEL BELFORT" .
+<http://example.org/112> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/112> <http://example.org/hasAddress> "7, avenue de la R\u00E9publique" .
+<http://example.org/112> <http://example.org/hasWebSite> "www.hotel-le-bretagne.com" .
+<http://example.org/112> <http://example.org/hasMail> "info@hotel-le-bretagne.com" .
+<http://example.org/112> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/112> <http://example.org/hasName> "LE BRETAGNE" .
+<http://example.org/125> <http://example.org/hasPostalCode> "44570" .
+<http://example.org/125> <http://example.org/hasAddress> "rue des Aigrettes" .
+<http://example.org/125> <http://example.org/hasWebSite> "www.premiereclasse.com" .
+<http://example.org/125> <http://example.org/hasMail> "stnazaire.trignac@premiereclasse.fr" .
+<http://example.org/125> <http://example.org/hasTown> "TRIGNAC" .
+<http://example.org/125> <http://example.org/acceptVisualImpairment> "oui" .
+<http://example.org/125> <http://example.org/hasName> "HOTEL PREMIERE CLASSE" .
+<http://example.org/31> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/31> <http://example.org/hasAddress> "26, boulevard Hennecart" .
+<http://example.org/31> <http://example.org/hasWebSite> "www.hotel-le-christina.com" .
+<http://example.org/31> <http://example.org/hasMail> "christina@hotel-le-christina.com" .
+<http://example.org/31> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/31> <http://example.org/hasName> "LE CHRISTINA" .
+<http://example.org/72> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/72> <http://example.org/hasAddress> "10, Rue Gresset" .
+<http://example.org/72> <http://example.org/hasWebSite> "www.hotelcholet-nantes.com" .
+<http://example.org/72> <http://example.org/hasMail> "hotel.cholet@wanadoo.fr" .
+<http://example.org/72> <http://example.org/hasTown> "NANTES" .
+<http://example.org/72> <http://example.org/hasName> "CHOLET (LE)" .
+<http://example.org/138> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/138> <http://example.org/hasAddress> "30, avenue du Bois d'Amour" .
+<http://example.org/138> <http://example.org/hasWebSite> "www.hotelgardenspalabaule.com" .
+<http://example.org/138> <http://example.org/hasMail> "reception@hotelgardenspa.com" .
+<http://example.org/138> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/138> <http://example.org/hasName> "BEST WESTERN GARDEN AND SPA" .
+<http://example.org/44> <http://example.org/hasPostalCode> "44240" .
+<http://example.org/44> <http://example.org/hasAddress> "Parc de Gesvres" .
+<http://example.org/44> <http://example.org/hasWebSite> "www.hotelbb.com" .
+<http://example.org/44> <http://example.org/hasMail> "bb_4151@hotelbb.com" .
+<http://example.org/44> <http://example.org/hasTown> "LA CHAPELLE-SUR-ERDRE" .
+<http://example.org/44> <http://example.org/hasName> "B&B H\u00D4TEL NANTES LA CHAPELLE" .
+<http://example.org/16> <http://example.org/hasPostalCode> "44115" .
+<http://example.org/16> <http://example.org/hasWebSite> "www.hoteldelalouee.fr" .
+<http://example.org/16> <http://example.org/hasMail> "hoteldelalouee@wanadoo.fr" .
+<http://example.org/16> <http://example.org/hasTown> "HAUTE-GOULAINE" .
+<http://example.org/16> <http://example.org/hasName> "LA LOUEE" .
+<http://example.org/85> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/85> <http://example.org/hasAddress> "12, Rue du Marais" .
+<http://example.org/85> <http://example.org/hasWebSite> "www.nantes-hotel-dorleans.com" .
+<http://example.org/85> <http://example.org/hasMail> "hoteldorleansnantes@free.fr" .
+<http://example.org/85> <http://example.org/hasTown> "NANTES" .
+<http://example.org/85> <http://example.org/hasName> "ORLEANS (D')" .
+<http://example.org/57> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/57> <http://example.org/hasAddress> "6 Rue Henri IV" .
+<http://example.org/57> <http://example.org/hasWebSite> "www.nanteshotel.com" .
+<http://example.org/57> <http://example.org/hasMail> "lhotel@mageos.com" .
+<http://example.org/57> <http://example.org/hasTown> "NANTES" .
+<http://example.org/57> <http://example.org/hasName> "HOTEL (L')" .
+<http://example.org/8> <http://example.org/hasPostalCode> "44110" .
+<http://example.org/8> <http://example.org/hasAddress> "Route de St Nazaire" .
+<http://example.org/8> <http://example.org/hasWebSite> "www.etaphotel.com" .
+<http://example.org/8> <http://example.org/hasMail> "h6753@accor.com" .
+<http://example.org/8> <http://example.org/hasTown> "CHATEAUBRIANT" .
+<http://example.org/8> <http://example.org/hasName> "ETAP HOTEL" .
+<http://example.org/29> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/29> <http://example.org/hasAddress> "124, avenue de Lattre de Tassigny" .
+<http://example.org/29> <http://example.org/hasWebSite> "www.hotel-saint-pierre.com" .
+<http://example.org/29> <http://example.org/hasMail> "contact@hotel-saint-pierre.com" .
+<http://example.org/29> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/29> <http://example.org/hasName> "LE SAINT PIERRE" .
+<http://example.org/98> <http://example.org/hasPostalCode> "44400" .
+<http://example.org/98> <http://example.org/hasAddress> "50, Rue de la Commune" .
+<http://example.org/98> <http://example.org/hasWebSite> "www.hotel-duchevalblanc.com" .
+<http://example.org/98> <http://example.org/hasMail> "hotelduchevalblanc@wanadoo.fr" .
+<http://example.org/98> <http://example.org/hasTown> "REZE" .
+<http://example.org/98> <http://example.org/hasName> "CHEVAL BLANC (DU)" .
+<http://example.org/132> <http://example.org/hasPostalCode> "44120" .
+<http://example.org/132> <http://example.org/hasAddress> "460 Route de Clisson" .
+<http://example.org/132> <http://example.org/hasWebSite> "www.lelaurierfleuri.fr" .
+<http://example.org/132> <http://example.org/hasMail> "relaislaurierfleuri@orange.fr" .
+<http://example.org/132> <http://example.org/hasTown> "VERTOU" .
+<http://example.org/132> <http://example.org/hasName> "LE LAURIER FLEURI" .
+<http://example.org/104> <http://example.org/hasPostalCode> "44800" .
+<http://example.org/104> <http://example.org/hasAddress> "Route de Saint Etienne de Montluc" .
+<http://example.org/104> <http://example.org/hasTown> "SAINT-HERBLAIN" .
+<http://example.org/104> <http://example.org/hasName> "AGIL" .
+<http://example.org/10> <http://example.org/hasPostalCode> "44190" .
+<http://example.org/10> <http://example.org/hasMail> "lacascade-clisson44@orange.fr" .
+<http://example.org/10> <http://example.org/hasTown> "CLISSON" .
+<http://example.org/10> <http://example.org/hasName> "AUBERGE DE LA CASCADE" .
+<http://example.org/145> <http://example.org/hasPostalCode> "44430" .
+<http://example.org/145> <http://example.org/hasAddress> "Place de l'Eglise" .
+<http://example.org/145> <http://example.org/hasWebSite> "www.logisdefrance-paysdelaloire.com" .
+<http://example.org/145> <http://example.org/hasMail> "lechevalblanc44@orange.fr" .
+<http://example.org/145> <http://example.org/hasTown> "LE LOROUX-BOTTEREAU" .
+<http://example.org/145> <http://example.org/hasName> "LE CHEVAL BLANC" .
+<http://example.org/117> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/117> <http://example.org/hasAddress> "45 route de Fondeline" .
+<http://example.org/117> <http://example.org/hasWebSite> "www.inter-hotel.fr" .
+<http://example.org/117> <http://example.org/hasMail> "ha4411@inter-hotel.com" .
+<http://example.org/117> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/117> <http://example.org/hasName> "HOTEL ANAIADE" .
+<http://example.org/51> <http://example.org/hasPostalCode> "44510" .
+<http://example.org/51> <http://example.org/hasAddress> "21 rue Mar\u00E9chal Foch" .
+<http://example.org/51> <http://example.org/hasWebSite> "www.aloreedubois.net" .
+<http://example.org/51> <http://example.org/hasMail> "hotel@aloreedubois.net" .
+<http://example.org/51> <http://example.org/hasTown> "LE POULIGUEN" .
+<http://example.org/51> <http://example.org/hasName> "A L'OREE DU BOIS" .
+<http://example.org/2> <http://example.org/hasPostalCode> "44740" .
+<http://example.org/2> <http://example.org/hasAddress> "Route du Croisic" .
+<http://example.org/2> <http://example.org/hasMail> "hotel.lesembruns@orange.fr" .
+<http://example.org/2> <http://example.org/hasTown> "BATZ-SUR-MER" .
+<http://example.org/2> <http://example.org/hasName> "LES EMBRUNS" .
+<http://example.org/23> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/23> <http://example.org/hasAddress> "7, avenue des Impairs" .
+<http://example.org/23> <http://example.org/hasWebSite> "www.hotelbrittany.com" .
+<http://example.org/23> <http://example.org/hasMail> "info@hotelbrittany.com" .
+<http://example.org/23> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/23> <http://example.org/hasName> "BRITTANY BEST WESTERN" .
+<http://example.org/92> <http://example.org/hasPostalCode> "44700" .
+<http://example.org/92> <http://example.org/hasAddress> "129/131, route de Rennes" .
+<http://example.org/92> <http://example.org/hasWebSite> "www.citotel.com" .
+<http://example.org/92> <http://example.org/hasMail> "citotelalbert@wanadoo.fr" .
+<http://example.org/92> <http://example.org/hasTown> "ORVAULT" .
+<http://example.org/92> <http://example.org/hasName> "CITOTEL ALBERT" .
+<http://example.org/64> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/64> <http://example.org/hasAddress> "1 Place du commerce" .
+<http://example.org/64> <http://example.org/hasTown> "NANTES" .
+<http://example.org/64> <http://example.org/hasName> "HOTEL DU COMMERCE" .
+<http://example.org/36> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/36> <http://example.org/hasAddress> "277, avenue de Lattre de Tassigny" .
+<http://example.org/36> <http://example.org/hasWebSite> "www.hotel-des-dunes.com" .
+<http://example.org/36> <http://example.org/hasMail> "info@hotel-des-dunes.com" .
+<http://example.org/36> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/36> <http://example.org/hasName> "DUNES" .
+<http://example.org/77> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/77> <http://example.org/hasAddress> "2, Rue Boileau" .
+<http://example.org/77> <http://example.org/hasWebSite> "www.hotel-pommeraye.com" .
+<http://example.org/77> <http://example.org/hasMail> "resa@hotel-pommeraye.com" .
+<http://example.org/77> <http://example.org/hasTown> "NANTES" .
+<http://example.org/77> <http://example.org/hasName> "POMMERAYE" .
+<http://example.org/49> <http://example.org/hasPostalCode> "44510" .
+<http://example.org/49> <http://example.org/hasAddress> "13 rue du Centre" .
+<http://example.org/49> <http://example.org/hasWebSite> "www.hotel-pouliguen.com" .
+<http://example.org/49> <http://example.org/hasMail> "lemondes@orange.fr" .
+<http://example.org/49> <http://example.org/hasTown> "LE POULIGUEN" .
+<http://example.org/49> <http://example.org/hasName> "LE MOND\u00C8S" .
+<http://example.org/111> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/111> <http://example.org/hasAddress> "45, rue Jean Jaur\u00E8s" .
+<http://example.org/111> <http://example.org/hasWebSite> "www.citotel.com" .
+<http://example.org/111> <http://example.org/hasMail> "sarl-hotel-labelleepee@wanadoo.fr" .
+<http://example.org/111> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/111> <http://example.org/hasName> "LA BELLE EPEE" .
+<http://example.org/124> <http://example.org/hasPostalCode> "44980" .
+<http://example.org/124> <http://example.org/hasAddress> "4, Rue Gustave Eiffel" .
+<http://example.org/124> <http://example.org/hasWebSite> "www.etaphotel.com" .
+<http://example.org/124> <http://example.org/hasMail> "H3581@accor.com" .
+<http://example.org/124> <http://example.org/hasTown> "SAINTE-LUCE-SUR-LOIRE" .
+<http://example.org/124> <http://example.org/hasName> "ETAP HOTEL - SAINTE LUCE SUR LOIRE" .
+<http://example.org/30> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/30> <http://example.org/hasAddress> "1, avenue Andrieu" .
+<http://example.org/30> <http://example.org/hasWebSite> "www.castel-marie-louise.com" .
+<http://example.org/30> <http://example.org/hasMail> "marielouise@relaischateaux.com" .
+<http://example.org/30> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/30> <http://example.org/hasName> "RELAIS&CHATEAUX CASTEL MARIE-LOUISE" .
+<http://example.org/71> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/71> <http://example.org/hasAddress> "2 bis, Rue Ch\u00E2teaubriand" .
+<http://example.org/71> <http://example.org/hasWebSite> "www.hotel-chateaubriand-nantes.com" .
+<http://example.org/71> <http://example.org/hasMail> "hotelchateaubriand@wanadoo.fr" .
+<http://example.org/71> <http://example.org/hasTown> "NANTES" .
+<http://example.org/71> <http://example.org/hasName> "CHATEAUBRIAND" .
+<http://example.org/137> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/137> <http://example.org/hasAddress> "9, Rue du Mar\u00E9chal de Lattre de Tassigny" .
+<http://example.org/137> <http://example.org/hasWebSite> "www.besthotel.fr/nantes" .
+<http://example.org/137> <http://example.org/hasMail> "nantes@besthotel.fr" .
+<http://example.org/137> <http://example.org/acceptHearingImpairment> "oui" .
+<http://example.org/137> <http://example.org/hasTown> "NANTES" .
+<http://example.org/137> <http://example.org/hasName> "BEST HOTEL NANTES CENTRE" .
+<http://example.org/43> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/43> <http://example.org/hasAddress> "2, avenue Pierre 1er de Serbie" .
+<http://example.org/43> <http://example.org/hasWebSite> "www.lecorallilabaule.com" .
+<http://example.org/43> <http://example.org/hasMail> "info@lecorallilabaule.com" .
+<http://example.org/43> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/43> <http://example.org/hasName> "LE CORALLI" .
+<http://example.org/109> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/109> <http://example.org/hasAddress> "2, rue du Commandant l'Herminier" .
+<http://example.org/109> <http://example.org/hasWebSite> "www.hotelkorali.fr" .
+<http://example.org/109> <http://example.org/hasMail> "hotelkorali@wanadoo.fr" .
+<http://example.org/109> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/109> <http://example.org/hasName> "BRIT HOTEL LE KORALI" .
+<http://example.org/15> <http://example.org/hasPostalCode> "44350" .
+<http://example.org/15> <http://example.org/hasAddress> "2 place Dolgellau" .
+<http://example.org/15> <http://example.org/hasWebSite> "www.hotel-guerande.com" .
+<http://example.org/15> <http://example.org/hasMail> "reception@hoteldelacite-guerande.com" .
+<http://example.org/15> <http://example.org/hasTown> "GUERANDE" .
+<http://example.org/15> <http://example.org/hasName> "HOTEL DE LA CITE" .
+<http://example.org/84> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/84> <http://example.org/hasAddress> "11, Rue du Mar\u00E9chal de Lattre de Tassign" .
+<http://example.org/84> <http://example.org/hasWebSite> "www.hotel-nantes.com" .
+<http://example.org/84> <http://example.org/hasMail> "info@hotel-nantes.com" .
+<http://example.org/84> <http://example.org/hasTown> "NANTES" .
+<http://example.org/84> <http://example.org/hasName> "OCEAN (L')" .
+<http://example.org/56> <http://example.org/hasPostalCode> "44303" .
+<http://example.org/56> <http://example.org/hasAddress> "345, Route de Sainte Luce" .
+<http://example.org/56> <http://example.org/hasWebSite> "www.hotelf1.com" .
+<http://example.org/56> <http://example.org/hasMail> "H2260@accor.com" .
+<http://example.org/56> <http://example.org/hasTown> "NANTES" .
+<http://example.org/56> <http://example.org/hasName> "HOTEL F1 - NANTES EST PORTE DE SAINTE LUCE" .
+<http://example.org/7> <http://example.org/hasPostalCode> "44110" .
+<http://example.org/7> <http://example.org/hasAddress> "30, rue du 11 novembre" .
+<http://example.org/7> <http://example.org/hasWebSite> "www.hotellechateaubriant.fr" .
+<http://example.org/7> <http://example.org/hasMail> "hotellechateaubriant@orange.fr" .
+<http://example.org/7> <http://example.org/hasTown> "CHATEAUBRIANT" .
+<http://example.org/7> <http://example.org/hasName> "LE CHATEAUBRIANT" .
+<http://example.org/28> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/28> <http://example.org/hasAddress> "Place Notre Dame" .
+<http://example.org/28> <http://example.org/hasWebSite> "www.st-christophe.com" .
+<http://example.org/28> <http://example.org/hasMail> "reception.hsc@wanadoo.fr" .
+<http://example.org/28> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/28> <http://example.org/hasName> "SAINT CHRISTOPHE" .
+<http://example.org/97> <http://example.org/hasPostalCode> "44406" .
+<http://example.org/97> <http://example.org/hasAddress> "4, impasse Ordronneau" .
+<http://example.org/97> <http://example.org/hasWebSite> "www.premiereclasse.fr" .
+<http://example.org/97> <http://example.org/hasTown> "REZE" .
+<http://example.org/97> <http://example.org/hasName> "PREMIERE CLASSE - REZE" .
+<http://example.org/69> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/69> <http://example.org/hasAddress> "3, Rue du Cou\u00EBdic" .
+<http://example.org/69> <http://example.org/hasWebSite> "www.all-seasons-hotels.com" .
+<http://example.org/69> <http://example.org/hasMail> "allseasons.nantes@orange.fr" .
+<http://example.org/69> <http://example.org/hasTown> "NANTES" .
+<http://example.org/69> <http://example.org/hasName> "ALL SEASONS NANTES CENTRE" .
+<http://example.org/131> <http://example.org/hasPostalCode> "44120" .
+<http://example.org/131> <http://example.org/hasWebSite> "www.la-haute-foret.com" .
+<http://example.org/131> <http://example.org/hasMail> "lahauteforet@wanadoo.fr" .
+<http://example.org/131> <http://example.org/hasTown> "VERTOU" .
+<http://example.org/131> <http://example.org/hasName> "LA HAUTE FORET" .
+<http://example.org/103> <http://example.org/hasPostalCode> "44800" .
+<http://example.org/103> <http://example.org/hasAddress> "Avenue des Lions" .
+<http://example.org/103> <http://example.org/hasMail> "h6674@accor.com" .
+<http://example.org/103> <http://example.org/hasTown> "SAINT-HERBLAIN" .
+<http://example.org/103> <http://example.org/hasName> "ETAP HOTEL NANTES NORD SAINT HERBLAIN" .
+<http://example.org/144> <http://example.org/hasPostalCode> "44350" .
+<http://example.org/144> <http://example.org/hasAddress> "Domaine de Br\u00E9hadour" .
+<http://example.org/144> <http://example.org/hasWebSite> "www.econuit.com" .
+<http://example.org/144> <http://example.org/hasMail> "reception-guerande@econuit.com" .
+<http://example.org/144> <http://example.org/acceptHearingImpairment> "oui" .
+<http://example.org/144> <http://example.org/hasTown> "GUERANDE" .
+<http://example.org/144> <http://example.org/hasName> "HOTEL ECO NUIT" .
+<http://example.org/116> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/116> <http://example.org/hasAddress> "4, avenue de la R\u00E9publique" .
+<http://example.org/116> <http://example.org/hasWebSite> "www.hotel-de-touraine.com" .
+<http://example.org/116> <http://example.org/hasMail> "hoteltouraine@free.fr" .
+<http://example.org/116> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/116> <http://example.org/hasName> "LE TOURAINE" .
+<http://example.org/50> <http://example.org/hasPostalCode> "44510" .
+<http://example.org/50> <http://example.org/hasAddress> "28 quai Jules Sandeau" .
+<http://example.org/50> <http://example.org/hasWebSite> "perso.orange.fr/grandhotelneptune" .
+<http://example.org/50> <http://example.org/hasMail> "grand.hotel.neptune@wanadoo.fr" .
+<http://example.org/50> <http://example.org/hasTown> "LE POULIGUEN" .
+<http://example.org/50> <http://example.org/hasName> "LES FARFADETS" .
+<http://example.org/1> <http://example.org/hasPostalCode> "44740" .
+<http://example.org/1> <http://example.org/hasAddress> "4 route de la Govelle" .
+<http://example.org/1> <http://example.org/hasWebSite> "www.le-lichen.com" .
+<http://example.org/1> <http://example.org/hasMail> "info@le-lichen.com" .
+<http://example.org/1> <http://example.org/hasTown> "BATZ-SUR-MER" .
+<http://example.org/1> <http://example.org/hasName> "LE LICHEN DE LA MER" .
+<http://example.org/22> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/22> <http://example.org/hasAddress> "46, avenue des Lilas" .
+<http://example.org/22> <http://example.org/hasWebSite> "www.vacancesbleues.com" .
+<http://example.org/22> <http://example.org/hasMail> "villacaroline@vacancesbleues.com" .
+<http://example.org/22> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/22> <http://example.org/hasName> "LA VILLA CAROLINE" .
+<http://example.org/91> <http://example.org/hasPostalCode> "44700" .
+<http://example.org/91> <http://example.org/hasAddress> "31, Rue Jules Verne" .
+<http://example.org/91> <http://example.org/hasWebSite> "www.hotel-agora-nantes.com" .
+<http://example.org/91> <http://example.org/hasMail> "ha4412@inter-hotel.com" .
+<http://example.org/91> <http://example.org/hasTown> "ORVAULT" .
+<http://example.org/91> <http://example.org/hasName> "INTER HOTEL AGORA" .
+<http://example.org/63> <http://example.org/hasPostalCode> "44300" .
+<http://example.org/63> <http://example.org/hasAddress> "82 Route de Paris - La Beaujoire" .
+<http://example.org/63> <http://example.org/hasWebSite> "www.hotelbb.com" .
+<http://example.org/63> <http://example.org/hasMail> "bb_4035@hotelbb.com" .
+<http://example.org/63> <http://example.org/hasTown> "NANTES" .
+<http://example.org/63> <http://example.org/hasName> "B&B H\u00D4TEL NANTES LA BEAUJOIRE" .
+<http://example.org/129> <http://example.org/hasPostalCode> "44330" .
+<http://example.org/129> <http://example.org/hasWebSite> "www.clairdelie.com" .
+<http://example.org/129> <http://example.org/hasMail> "clairdelie@orange.fr" .
+<http://example.org/129> <http://example.org/hasTown> "VALLET" .
+<http://example.org/129> <http://example.org/hasName> "CLAIR DE LIE" .
+<http://example.org/35> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/35> <http://example.org/hasAddress> "173, avenue de Lattre de Tassigny" .
+<http://example.org/35> <http://example.org/hasWebSite> "www.hotel-la-closerie.com" .
+<http://example.org/35> <http://example.org/hasMail> "info@hotel-la-closerie.com" .
+<http://example.org/35> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/35> <http://example.org/hasName> "LA CLOSERIE" .
+<http://example.org/76> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/76> <http://example.org/hasAddress> "2 bis, Rue Santeuil" .
+<http://example.org/76> <http://example.org/hasWebSite> "www.grandhotel-nantes.com" .
+<http://example.org/76> <http://example.org/hasMail> "grandhotel-nantes@wanadoo.fr" .
+<http://example.org/76> <http://example.org/hasTown> "NANTES" .
+<http://example.org/76> <http://example.org/hasName> "GRAND HOTEL DE NANTES" .
+<http://example.org/48> <http://example.org/hasPostalCode> "44490" .
+<http://example.org/48> <http://example.org/hasAddress> "15 rue Pasteur" .
+<http://example.org/48> <http://example.org/hasWebSite> "www.hotellesnids.com" .
+<http://example.org/48> <http://example.org/hasMail> "hotellesnids@worldonline.fr" .
+<http://example.org/48> <http://example.org/hasTown> "LE CROISIC" .
+<http://example.org/48> <http://example.org/hasName> "LES NIDS" .
+<http://example.org/89> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/89> <http://example.org/hasAddress> "154, Rue du G\u00E9n\u00E9ral Buat" .
+<http://example.org/89> <http://example.org/hasWebSite> "www.hotel-saintyves.fr" .
+<http://example.org/89> <http://example.org/hasMail> "galina.garry@gmail.com" .
+<http://example.org/89> <http://example.org/hasTown> "NANTES" .
+<http://example.org/89> <http://example.org/hasName> "SAINT YVES" .
+<http://example.org/110> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/110> <http://example.org/hasAddress> "1 rue de la Floride" .
+<http://example.org/110> <http://example.org/hasWebSite> "www.hotelsaintnazaire.com" .
+<http://example.org/110> <http://example.org/hasMail> "resa@hie44600.com" .
+<http://example.org/110> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/110> <http://example.org/acceptVisualImpairment> "oui" .
+<http://example.org/110> <http://example.org/hasName> "HOLIDAY INN EXPRESS" .
+<http://example.org/123> <http://example.org/hasPostalCode> "44980" .
+<http://example.org/123> <http://example.org/hasAddress> "Domaine des Th\u00E9baudi\u00E8res" .
+<http://example.org/123> <http://example.org/hasWebSite> "www.hotel-aparte.fr" .
+<http://example.org/123> <http://example.org/hasMail> "contact@hotel-aparte.fr" .
+<http://example.org/123> <http://example.org/hasTown> "SAINTE-LUCE-SUR-LOIRE" .
+<http://example.org/123> <http://example.org/hasName> "APARTE (L')" .
+<http://example.org/70> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/70> <http://example.org/hasAddress> "4, all\u00E9e du commandant Charcot" .
+<http://example.org/70> <http://example.org/hasWebSite> "www.hotelastorianantes.com" .
+<http://example.org/70> <http://example.org/hasMail> "contact@astorianantes.com" .
+<http://example.org/70> <http://example.org/hasTown> "NANTES" .
+<http://example.org/70> <http://example.org/hasName> "COMFORT HOTEL NANTES ASTORIA" .
+<http://example.org/136> <http://example.org/hasPostalCode> "44470" .
+<http://example.org/136> <http://example.org/hasAddress> "6, rue de l'H\u00F4tellerie" .
+<http://example.org/136> <http://example.org/hasWebSite> "www.balladins-nantes.com" .
+<http://example.org/136> <http://example.org/hasMail> "nantes.confort@balladins.com" .
+<http://example.org/136> <http://example.org/hasTown> "CARQUEFOU" .
+<http://example.org/136> <http://example.org/hasName> "BALLADINS" .
+<http://example.org/42> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/42> <http://example.org/hasAddress> "25, avenue de la Grande Dune" .
+<http://example.org/42> <http://example.org/hasWebSite> "www.hotel-tygwenn.fr" .
+<http://example.org/42> <http://example.org/hasMail> "hotel.tygwenn@wanadoo.fr" .
+<http://example.org/42> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/42> <http://example.org/hasName> "TY GWENN" .
+<http://example.org/108> <http://example.org/hasPostalCode> "44730" .
+<http://example.org/108> <http://example.org/hasAddress> "2, avenue de Bretagne" .
+<http://example.org/108> <http://example.org/hasMail> "hotellacotedejade@orange.fr" .
+<http://example.org/108> <http://example.org/hasTown> "SAINT-MICHEL-CHEF-CHEF" .
+<http://example.org/108> <http://example.org/hasName> "LA COTE DE JADE" .
+<http://example.org/14> <http://example.org/hasPostalCode> "44350" .
+<http://example.org/14> <http://example.org/hasAddress> "14-15 boulevard du Nord" .
+<http://example.org/14> <http://example.org/hasMail> "hotelremparts@orange.fr" .
+<http://example.org/14> <http://example.org/hasTown> "GUERANDE" .
+<http://example.org/14> <http://example.org/hasName> "LES REMP'ARTS" .
+<http://example.org/83> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/83> <http://example.org/hasAddress> "36, Rue du Mar\u00E9chal Joffre" .
+<http://example.org/83> <http://example.org/hasWebSite> "www.hotel-grand-monarque.com" .
+<http://example.org/83> <http://example.org/hasMail> "grand-monarque@wanadoo.fr" .
+<http://example.org/83> <http://example.org/hasTown> "NANTES" .
+<http://example.org/83> <http://example.org/hasName> "GRAND MONARQUE (DU)" .
+<http://example.org/55> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/55> <http://example.org/hasAddress> "10, Place Viarme" .
+<http://example.org/55> <http://example.org/hasWebSite> "www.hotel-bb.com" .
+<http://example.org/55> <http://example.org/hasMail> "bb_4304@hotelbb.com" .
+<http://example.org/55> <http://example.org/hasTown> "NANTES" .
+<http://example.org/55> <http://example.org/hasName> "B&B H\u00D4TEL NANTES CENTRE" .
+<http://example.org/6> <http://example.org/hasPostalCode> "44470" .
+<http://example.org/6> <http://example.org/hasAddress> "2, All\u00E9e des Sapins" .
+<http://example.org/6> <http://example.org/hasWebSite> "www.hotelf1.com" .
+<http://example.org/6> <http://example.org/hasMail> "arnaud.griffon@accor.com" .
+<http://example.org/6> <http://example.org/hasTown> "CARQUEFOU" .
+<http://example.org/6> <http://example.org/hasName> "HOTEL F1 - CARQUEFOU LA BELLE ETOILE" .
+<http://example.org/27> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/27> <http://example.org/hasAddress> "26, avenue Marie Louise" .
+<http://example.org/27> <http://example.org/hasWebSite> "www.la-mascotte.fr" .
+<http://example.org/27> <http://example.org/hasMail> "hotel.la.mascotte@wanadoo.fr" .
+<http://example.org/27> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/27> <http://example.org/hasName> "LA MASCOTTE" .
+<http://example.org/96> <http://example.org/hasPostalCode> "44710" .
+<http://example.org/96> <http://example.org/hasAddress> "Zone de Loisirs - rue du Grand Pr\u00E9" .
+<http://example.org/96> <http://example.org/hasWebSite> "www.hotel-nuitderetz.com" .
+<http://example.org/96> <http://example.org/hasMail> "nuitderetz@orange.fr" .
+<http://example.org/96> <http://example.org/acceptHearingImpairment> "oui" .
+<http://example.org/96> <http://example.org/hasTown> "PORT-SAINT-PERE" .
+<http://example.org/96> <http://example.org/acceptVisualImpairment> "oui" .
+<http://example.org/96> <http://example.org/hasName> "NUIT DE RETZ" .
+<http://example.org/68> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/68> <http://example.org/hasAddress> "1 rue Piron" .
+<http://example.org/68> <http://example.org/hasWebSite> "www.hotel-graslin.com" .
+<http://example.org/68> <http://example.org/hasMail> "info@hotel-graslin.com" .
+<http://example.org/68> <http://example.org/hasTown> "NANTES" .
+<http://example.org/68> <http://example.org/hasName> "GRASLIN (LE)" .
+<http://example.org/130> <http://example.org/hasPostalCode> "44330" .
+<http://example.org/130> <http://example.org/hasAddress> "35 route de Clisson" .
+<http://example.org/130> <http://example.org/hasWebSite> "www.logisdefrance-paysdelaloire.com" .
+<http://example.org/130> <http://example.org/hasTown> "VALLET" .
+<http://example.org/130> <http://example.org/hasName> "LE DON QUICHOTTE" .
+<http://example.org/102> <http://example.org/hasPostalCode> "44800" .
+<http://example.org/102> <http://example.org/hasAddress> "Rue du Moulin de la Rousseli\u00E8re" .
+<http://example.org/102> <http://example.org/hasWebSite> "www.premiereclasse.fr" .
+<http://example.org/102> <http://example.org/hasMail> "premiereclasse.nantes@shfrance.com" .
+<http://example.org/102> <http://example.org/hasTown> "SAINT-HERBLAIN" .
+<http://example.org/102> <http://example.org/hasName> "PREMIERE CLASSE - SAINT HERBLAIN" .
+<http://example.org/143> <http://example.org/hasPostalCode> "44380" .
+<http://example.org/143> <http://example.org/hasAddress> "50 avenue de la Plage" .
+<http://example.org/143> <http://example.org/hasWebSite> "www.oceaniahotels.com/escale-oceania-pornichet-la-baule.php" .
+<http://example.org/143> <http://example.org/hasMail> "cdelaplace@oceaniahotels.com" .
+<http://example.org/143> <http://example.org/hasTown> "PORNICHET" .
+<http://example.org/143> <http://example.org/hasName> "ESCALE OCEANIA" .
+<http://example.org/115> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/115> <http://example.org/hasAddress> "48, rue des Halles" .
+<http://example.org/115> <http://example.org/hasWebSite> "www.le-saint-louis.hotels.officelive.com" .
+<http://example.org/115> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/115> <http://example.org/hasName> "LE SAINT LOUIS" .
+<http://example.org/0> <http://example.org/hasPostalCode> "44410" .
+<http://example.org/0> <http://example.org/hasAddress> "33 rue du Mes" .
+<http://example.org/0> <http://example.org/hasWebSite> "www.lebretagne.net" .
+<http://example.org/0> <http://example.org/hasMail> "contact@lebretagne.net" .
+<http://example.org/0> <http://example.org/hasTown> "ASSERAC" .
+<http://example.org/0> <http://example.org/hasName> "LE BRETAGNE" .
+<http://example.org/21> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/21> <http://example.org/hasAddress> "14, esplanade Lucien Barri\u00E8re" .
+<http://example.org/21> <http://example.org/hasWebSite> "www.hotelmercure-labaule.com" .
+<http://example.org/21> <http://example.org/hasMail> "h5692@accor.com" .
+<http://example.org/21> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/21> <http://example.org/hasName> "MERCURE LA BAULE MAJESTIC" .
+<http://example.org/90> <http://example.org/hasPostalCode> "44390" .
+<http://example.org/90> <http://example.org/hasAddress> "P.A La Pancarte" .
+<http://example.org/90> <http://example.org/hasWebSite> "http://www.relaislagrange.com/" .
+<http://example.org/90> <http://example.org/hasMail> "contact@relaislagrange.com" .
+<http://example.org/90> <http://example.org/acceptHearingImpairment> "oui" .
+<http://example.org/90> <http://example.org/hasTown> "NORT-SUR-ERDRE" .
+<http://example.org/90> <http://example.org/acceptVisualImpairment> "oui" .
+<http://example.org/90> <http://example.org/hasName> "LE RELAIS DE LA GRANGE" .
+<http://example.org/62> <http://example.org/hasPostalCode> "44200" .
+<http://example.org/62> <http://example.org/hasAddress> "43 Boulevard Victor Hugo" .
+<http://example.org/62> <http://example.org/hasWebSite> "www.hotel-trianon.fr" .
+<http://example.org/62> <http://example.org/hasMail> "contact@hotel-trianon.fr" .
+<http://example.org/62> <http://example.org/hasTown> "NANTES" .
+<http://example.org/62> <http://example.org/hasName> "TRIANON" .
+<http://example.org/128> <http://example.org/hasPostalCode> "44570" .
+<http://example.org/128> <http://example.org/hasAddress> "Rue des Aigrettes" .
+<http://example.org/128> <http://example.org/hasWebSite> "www.hotel-bb.com" .
+<http://example.org/128> <http://example.org/hasMail> "bb_4107@hotelbb.com" .
+<http://example.org/128> <http://example.org/hasTown> "TRIGNAC" .
+<http://example.org/128> <http://example.org/hasName> "HOTEL B&B" .
+<http://example.org/34> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/34> <http://example.org/hasAddress> "42, avenue Georges Clemenceau" .
+<http://example.org/34> <http://example.org/hasWebSite> "www.hotelmonalisa-labaule.com" .
+<http://example.org/34> <http://example.org/hasMail> "hotel-mona-lisa@orange.fr" .
+<http://example.org/34> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/34> <http://example.org/hasName> "MONA LISA" .
+<http://example.org/75> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/75> <http://example.org/hasAddress> "5, All\u00E9e du Commandant Charcot" .
+<http://example.org/75> <http://example.org/hasWebSite> "www.hotel-gare-nantes.com" .
+<http://example.org/75> <http://example.org/hasMail> "contact@hotel-gare-nantes.com" .
+<http://example.org/75> <http://example.org/hasTown> "NANTES" .
+<http://example.org/75> <http://example.org/hasName> "HOTEL DE LA GARE - CITOTEL" .
+<http://example.org/47> <http://example.org/hasPostalCode> "44490" .
+<http://example.org/47> <http://example.org/hasAddress> "Port Lin" .
+<http://example.org/47> <http://example.org/hasWebSite> "www.hotel-les-vikings.com" .
+<http://example.org/47> <http://example.org/hasMail> "vikings@fr.oleane.com" .
+<http://example.org/47> <http://example.org/hasTown> "LE CROISIC" .
+<http://example.org/47> <http://example.org/hasName> "LES VIKINGS" .
+<http://example.org/19> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/19> <http://example.org/hasAddress> "19, all\u00E9e des P\u00E9trels" .
+<http://example.org/19> <http://example.org/hasWebSite> "www.alcyon-hotel.com" .
+<http://example.org/19> <http://example.org/hasMail> "info@alcyon-hotel.com" .
+<http://example.org/19> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/19> <http://example.org/hasName> "ALCYON" .
+<http://example.org/88> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/88> <http://example.org/hasAddress> "5, All\u00E9e Duquesne - Cours des 50 Otages" .
+<http://example.org/88> <http://example.org/hasWebSite> "www.hotel-dutourisme.com" .
+<http://example.org/88> <http://example.org/hasMail> "hotel.du.tourisme@wanadoo.fr" .
+<http://example.org/88> <http://example.org/hasTown> "NANTES" .
+<http://example.org/88> <http://example.org/hasName> "TOURISME (DU)" .
+<http://example.org/122> <http://example.org/hasPostalCode> "44980" .
+<http://example.org/122> <http://example.org/hasAddress> "2, Rue Louis Armand" .
+<http://example.org/122> <http://example.org/hasWebSite> "www.premiereclasse.fr" .
+<http://example.org/122> <http://example.org/hasMail> "1ereclasse.steluce@wanadoo.fr" .
+<http://example.org/122> <http://example.org/hasTown> "SAINTE-LUCE-SUR-LOIRE" .
+<http://example.org/122> <http://example.org/hasName> "PREMIERE CLASSE - SAINTE LUCE SUR LOIRE" .
+<http://example.org/135> <http://example.org/hasPostalCode> "44400" .
+<http://example.org/135> <http://example.org/hasAddress> "1, rue de l'ile Mace" .
+<http://example.org/135> <http://example.org/hasWebSite> "www.all-seasons-hotels.com/hotel-7054-all-saisons-nantes-sud-reze/index.shtml" .
+<http://example.org/135> <http://example.org/hasMail> "H7054@accor.com" .
+<http://example.org/135> <http://example.org/hasTown> "REZE" .
+<http://example.org/135> <http://example.org/hasName> "ALL SEASONS NANTES SUD REZE" .
+<http://example.org/41> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/41> <http://example.org/hasAddress> "1, avenue de Lyon" .
+<http://example.org/41> <http://example.org/hasWebSite> "www.hotel-lestennis.com" .
+<http://example.org/41> <http://example.org/hasMail> "hotel.tennis@wanadoo.fr" .
+<http://example.org/41> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/41> <http://example.org/hasName> "LES TENNIS MEN" .
+<http://example.org/107> <http://example.org/hasPostalCode> "44800" .
+<http://example.org/107> <http://example.org/hasAddress> "Esplanade Ella Fitzgerald" .
+<http://example.org/107> <http://example.org/hasMail> "nantes.stherblain@kyriad.fr" .
+<http://example.org/107> <http://example.org/hasTown> "SAINT-HERBLAIN" .
+<http://example.org/107> <http://example.org/hasName> "KYRIAD SAINT-HERBLAIN" .
+<http://example.org/13> <http://example.org/hasPostalCode> "44350" .
+<http://example.org/13> <http://example.org/hasAddress> "7 place de Kerhilliers" .
+<http://example.org/13> <http://example.org/hasWebSite> "eurocean@otelissim.com" .
+<http://example.org/13> <http://example.org/hasMail> "eurocean@otelissim.com" .
+<http://example.org/13> <http://example.org/hasTown> "GUERANDE" .
+<http://example.org/13> <http://example.org/hasName> "EUROCEAN" .
+<http://example.org/82> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/82> <http://example.org/hasAddress> "5, Place de la Duchesse Anne" .
+<http://example.org/82> <http://example.org/hasWebSite> "www.hotelduchateau-nantes.fr" .
+<http://example.org/82> <http://example.org/hasMail> "hotelduchateau44@orange.fr" .
+<http://example.org/82> <http://example.org/hasTown> "NANTES" .
+<http://example.org/82> <http://example.org/hasName> "CHATEAU (DU)" .
+<http://example.org/148> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/148> <http://example.org/hasAddress> "16, rue Fr\u00E9d\u00E9ric Cailliaud" .
+<http://example.org/148> <http://example.org/hasWebSite> "www.sozohotel.fr" .
+<http://example.org/148> <http://example.org/hasMail> "contact@sozohotel.fr" .
+<http://example.org/148> <http://example.org/hasTown> "NANTES" .
+<http://example.org/148> <http://example.org/hasName> "SOZO HOTEL" .
+<http://example.org/54> <http://example.org/hasPostalCode> "44303" .
+<http://example.org/54> <http://example.org/hasAddress> "3 rue du Petit Chatelier" .
+<http://example.org/54> <http://example.org/hasWebSite> "www.jjwhotels.com" .
+<http://example.org/54> <http://example.org/hasMail> "stars-nantes@jjwhotels.com" .
+<http://example.org/54> <http://example.org/hasTown> "NANTES" .
+<http://example.org/54> <http://example.org/hasName> "STARS" .
+<http://example.org/5> <http://example.org/hasPostalCode> "44340" .
+<http://example.org/5> <http://example.org/hasAddress> "A\u00E9roport de Nantes Atlantique" .
+<http://example.org/5> <http://example.org/hasWebSite> "www.oceaniahotels.com" .
+<http://example.org/5> <http://example.org/hasMail> "escaleoceanianantes@oceaniahotels.com" .
+<http://example.org/5> <http://example.org/hasTown> "BOUGUENAIS" .
+<http://example.org/5> <http://example.org/hasName> "ESCALE OCEANIA" .
+<http://example.org/26> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/26> <http://example.org/hasAddress> "13, avenue Olivier Guichard" .
+<http://example.org/26> <http://example.org/hasWebSite> "www.lutetia-labaule.com" .
+<http://example.org/26> <http://example.org/hasMail> "contact@lutetia-labaule.com" .
+<http://example.org/26> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/26> <http://example.org/hasName> "LUTETIA" .
+<http://example.org/95> <http://example.org/hasPostalCode> "44210" .
+<http://example.org/95> <http://example.org/hasAddress> "Les Gentelleries" .
+<http://example.org/95> <http://example.org/hasWebSite> "www.hotel-arc-en-ciel.fr" .
+<http://example.org/95> <http://example.org/hasMail> "hotel.arcenciel@cegetel.net" .
+<http://example.org/95> <http://example.org/hasTown> "PORNIC" .
+<http://example.org/95> <http://example.org/hasName> "ARC EN CIEL" .
+<http://example.org/67> <http://example.org/hasPostalCode> "44000" .
+<http://example.org/67> <http://example.org/hasAddress> "9 All\u00E9e du Commandant Charcot" .
+<http://example.org/67> <http://example.org/hasMail> "bourgogne.hotel@wanadoo.fr" .
+<http://example.org/67> <http://example.org/hasTown> "NANTES" .
+<http://example.org/67> <http://example.org/hasName> "BOURGOGNE (DE)" .
+<http://example.org/39> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/39> <http://example.org/hasAddress> "138, avenue des Ondines" .
+<http://example.org/39> <http://example.org/hasWebSite> "www.hoteldeparis-labaule.com" .
+<http://example.org/39> <http://example.org/hasMail> "contact@hoteldeparis-labaule.com" .
+<http://example.org/39> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/39> <http://example.org/hasName> "LE PARIS" .
+<http://example.org/101> <http://example.org/hasPostalCode> "44800" .
+<http://example.org/101> <http://example.org/hasAddress> "4, Rue des Piliers de la Chauvini\u00E8re" .
+<http://example.org/101> <http://example.org/hasWebSite> "www.hotelformule1.com" .
+<http://example.org/101> <http://example.org/hasTown> "SAINT-HERBLAIN" .
+<http://example.org/101> <http://example.org/hasName> "HOTEL F1 - SAINT HERBLAIN" .
+<http://example.org/142> <http://example.org/hasPostalCode> "44200" .
+<http://example.org/142> <http://example.org/hasAddress> "16 boulevard Emile Gabory" .
+<http://example.org/142> <http://example.org/hasWebSite> "www.campanile.com" .
+<http://example.org/142> <http://example.org/hasMail> "nantes.centre.stjacques@campanile.fr" .
+<http://example.org/142> <http://example.org/hasTown> "NANTES" .
+<http://example.org/142> <http://example.org/hasName> "CAMPANILE NANTES CENTRE SAINT JACQUES" .
+<http://example.org/114> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/114> <http://example.org/hasAddress> "2, place des Martyrs de la R\u00E9sistance" .
+<http://example.org/114> <http://example.org/hasWebSite> "www.hoteldeleurope-saintnazaire.com" .
+<http://example.org/114> <http://example.org/hasMail> "hoteldeleurope@free.fr" .
+<http://example.org/114> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/114> <http://example.org/hasName> "L'EUROPE" .
+<http://example.org/20> <http://example.org/hasPostalCode> "44500" .
+<http://example.org/20> <http://example.org/hasAddress> "27, boulevard de l'Oc\u00E9an" .
+<http://example.org/20> <http://example.org/hasWebSite> "www.hotel-bellevue-plage.fr" .
+<http://example.org/20> <http://example.org/hasMail> "hotel@hotel-bellevue-plage.fr" .
+<http://example.org/20> <http://example.org/hasTown> "LA BAULE" .
+<http://example.org/20> <http://example.org/hasName> "BELLEVUE PLAGE" .

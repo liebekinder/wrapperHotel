@@ -1,0 +1,107 @@
+<http://example.org/13> <http://example.org/hasPostalCode> "44160" .
+<http://example.org/13> <http://example.org/hasAddress> "La Harrois" .
+<http://example.org/13> <http://example.org/hasWebSite> "www.lemauffsa.com" .
+<http://example.org/13> <http://example.org/hasMail> "lemauffsa@wanadoo.fr" .
+<http://example.org/13> <http://example.org/hasTown> "BESNE" .
+<http://example.org/13> <http://example.org/hasName> "ATELIERS LE MAUFF" .
+<http://example.org/19> <http://example.org/hasPostalCode> "44310" .
+<http://example.org/19> <http://example.org/hasAddress> "\"Parc de loisirs \"\"La Boulogne\"\"\"" .
+<http://example.org/19> <http://example.org/hasMail> "ch2c@wanadoo.fr" .
+<http://example.org/19> <http://example.org/hasTown> "SAINT-PHILBERT-DE-GRAND-LIEU" .
+<http://example.org/19> <http://example.org/hasName> "SWIN-GOLF" .
+<http://example.org/0> <http://example.org/hasPostalCode> "44380" .
+<http://example.org/0> <http://example.org/hasAddress> "Boulevard des Oc\u00E9anides" .
+<http://example.org/0> <http://example.org/hasTown> "PORNICHET" .
+<http://example.org/0> <http://example.org/hasName> "PLAGE DES LIBRAIRES" .
+<http://example.org/6> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/6> <http://example.org/hasAddress> "Rue du Commandant Charcot" .
+<http://example.org/6> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/6> <http://example.org/hasName> "PLAGE DE MONSIEUR HULOT" .
+<http://example.org/12> <http://example.org/hasPostalCode> "44350" .
+<http://example.org/12> <http://example.org/hasAddress> "Pend Hu\u00E9" .
+<http://example.org/12> <http://example.org/hasTown> "SAINT-MOLF" .
+<http://example.org/12> <http://example.org/hasName> "GAEC LES CHAMPS MARINS" .
+<http://example.org/18> <http://example.org/hasPostalCode> "44590" .
+<http://example.org/18> <http://example.org/hasAddress> "1 rue de Nantes" .
+<http://example.org/18> <http://example.org/hasWebSite> "www.manoirdebellevue-derval.fr" .
+<http://example.org/18> <http://example.org/hasMail> "anniehabay@wanadoo.fr" .
+<http://example.org/18> <http://example.org/hasTown> "DERVAL" .
+<http://example.org/18> <http://example.org/hasName> "PASSION FAIENCE" .
+<http://example.org/5> <http://example.org/hasPostalCode> "44600" .
+<http://example.org/5> <http://example.org/hasAddress> "Rue Ferdinand Buisson" .
+<http://example.org/5> <http://example.org/hasTown> "SAINT-NAZAIRE" .
+<http://example.org/5> <http://example.org/hasName> "PLAGE DE VILLES MARTIN" .
+<http://example.org/11> <http://example.org/hasPostalCode> "44200" .
+<http://example.org/11> <http://example.org/hasAddress> "Association CAP VERT" .
+<http://example.org/11> <http://example.org/hasWebSite> "penichecapvert.com" .
+<http://example.org/11> <http://example.org/hasMail> "asso.capvert@orange.fr" .
+<http://example.org/11> <http://example.org/acceptHearingImpairment> "oui" .
+<http://example.org/11> <http://example.org/hasTown> "NANTES" .
+<http://example.org/11> <http://example.org/acceptVisualImpairment> "oui" .
+<http://example.org/11> <http://example.org/hasName> "BATEAU HABITABLE P\u00C9NICHE CAP VERT" .
+<http://example.org/17> <http://example.org/hasPostalCode> "44410" .
+<http://example.org/17> <http://example.org/hasAddress> "Mairie" .
+<http://example.org/17> <http://example.org/hasMail> "patrimoine@herbignac.com" .
+<http://example.org/17> <http://example.org/hasTown> "HERBIGNAC" .
+<http://example.org/17> <http://example.org/hasName> "LA MAISON DU PATRIMOINE" .
+<http://example.org/20> <http://example.org/hasPostalCode> "44110" .
+<http://example.org/20> <http://example.org/hasAddress> "La Sabli\u00E8re" .
+<http://example.org/20> <http://example.org/hasWebSite> "www.tourisme-chateaubriant.fr" .
+<http://example.org/20> <http://example.org/hasMail> "accueil@tourisme-chateaubrian.tfr" .
+<http://example.org/20> <http://example.org/hasTown> "CHATEAUBRIANT" .
+<http://example.org/20> <http://example.org/hasName> "LA CARRIERE DES FUSILLES" .
+<http://example.org/4> <http://example.org/hasPostalCode> "44770" .
+<http://example.org/4> <http://example.org/hasAddress> "Boulevard de la Tara" .
+<http://example.org/4> <http://example.org/hasTown> "LA PLAINE-SUR-MER" .
+<http://example.org/4> <http://example.org/hasName> "PLAGE DE MOUTON" .
+<http://example.org/10> <http://example.org/hasPostalCode> "44690" .
+<http://example.org/10> <http://example.org/hasAddress> "23 Les Croix" .
+<http://example.org/10> <http://example.org/hasWebSite> "www.domainedescroix.fr" .
+<http://example.org/10> <http://example.org/hasMail> "batard.joseph@wanadoo.fr" .
+<http://example.org/10> <http://example.org/acceptHearingImpairment> "oui" .
+<http://example.org/10> <http://example.org/hasTown> "MAISDON-SUR-SEVRE" .
+<http://example.org/10> <http://example.org/acceptVisualImpairment> "oui" .
+<http://example.org/10> <http://example.org/hasName> "DOMAINE DES CROIX" .
+<http://example.org/16> <http://example.org/hasPostalCode> "44850" .
+<http://example.org/16> <http://example.org/hasAddress> "La Petite Fournerie" .
+<http://example.org/16> <http://example.org/hasWebSite> "www.lambert-sculpteur.fr" .
+<http://example.org/16> <http://example.org/hasMail> "art.lambert@wanadoo.fr" .
+<http://example.org/16> <http://example.org/hasTown> "MOUZEIL" .
+<http://example.org/16> <http://example.org/hasName> "LAMBERT SCULPTEUR" .
+<http://example.org/3> <http://example.org/hasPostalCode> "44730" .
+<http://example.org/3> <http://example.org/hasAddress> "Route de Gohaud" .
+<http://example.org/3> <http://example.org/hasTown> "SAINT-MICHEL-CHEF-CHEF" .
+<http://example.org/3> <http://example.org/hasName> "PLAGE DE GOHAUD" .
+<http://example.org/9> <http://example.org/hasPostalCode> "44190" .
+<http://example.org/9> <http://example.org/hasAddress> "Rue du Ch\u00E2teau" .
+<http://example.org/9> <http://example.org/hasWebSite> "http://cultureloire-atlantique.fr/culture/jcms/c_7195/forteresse-des-marches-de-bretagne" .
+<http://example.org/9> <http://example.org/hasMail> "garennelemot@cg44.fr" .
+<http://example.org/9> <http://example.org/acceptHearingImpairment> "oui" .
+<http://example.org/9> <http://example.org/hasTown> "CLISSON" .
+<http://example.org/9> <http://example.org/acceptVisualImpairment> "oui" .
+<http://example.org/9> <http://example.org/hasName> "CHATEAU DEPARTEMENTAL DE CLISSON" .
+<http://example.org/15> <http://example.org/hasPostalCode> "44410" .
+<http://example.org/15> <http://example.org/hasAddress> "Ques Couic" .
+<http://example.org/15> <http://example.org/hasMail> "laurentretailleau@club-internet.fr" .
+<http://example.org/15> <http://example.org/hasTown> "ASSERAC" .
+<http://example.org/15> <http://example.org/hasName> "LES SALINES DE BEAUREGARD" .
+<http://example.org/2> <http://example.org/hasPostalCode> "44760" .
+<http://example.org/2> <http://example.org/hasAddress> "Rue de la Mer" .
+<http://example.org/2> <http://example.org/hasTown> "LA BERNERIE-EN-RETZ" .
+<http://example.org/2> <http://example.org/hasName> "PLAN D'EAU SALEE" .
+<http://example.org/8> <http://example.org/hasPostalCode> "44210" .
+<http://example.org/8> <http://example.org/hasAddress> "All\u00E9e Fran\u00E7ois Renaud" .
+<http://example.org/8> <http://example.org/hasTown> "PORNIC" .
+<http://example.org/8> <http://example.org/hasName> "PLAGE DE MONTBEAU" .
+<http://example.org/14> <http://example.org/hasPostalCode> "44410" .
+<http://example.org/14> <http://example.org/hasAddress> "Route de l'Estran" .
+<http://example.org/14> <http://example.org/hasTown> "ASSERAC" .
+<http://example.org/14> <http://example.org/hasName> "LA FERME MARINE DE PEN BE" .
+<http://example.org/1> <http://example.org/hasPostalCode> "44760" .
+<http://example.org/1> <http://example.org/hasAddress> "Rue de la Mer" .
+<http://example.org/1> <http://example.org/hasTown> "LA BERNERIE-EN-RETZ" .
+<http://example.org/1> <http://example.org/hasName> "PLAN D'EAU SALEE" .
+<http://example.org/7> <http://example.org/hasPostalCode> "44420" .
+<http://example.org/7> <http://example.org/hasAddress> "Avenue Cassard" .
+<http://example.org/7> <http://example.org/hasTown> "LA TURBALLE" .
+<http://example.org/7> <http://example.org/hasName> "PLAGES DES BRETONS ET DE LA CROIX DE L'ANSE" .
