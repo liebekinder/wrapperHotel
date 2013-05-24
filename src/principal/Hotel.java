@@ -74,6 +74,8 @@ public class Hotel {
 	 */
 	private static final String API_URL = "http://data.nantes.fr/api/publication/"
 			+ "22440002800011_CG44_TOU_04815/" + "hotels_STBL/content";
+	
+	//http://data.nantes.fr/api/publication/22440002800011_CG44_TOU_04815/hotels_STBL/content
 	/**
 	 * Ontology / XML data mapping file path.
 	 */
@@ -368,13 +370,16 @@ public class Hotel {
 
 		if (args.length < 2) {
 			System.err.println("Error : argument(s) missing.");
-			// return;
-			queryPath = "/home/seb/Dropbox/stage/code/expfiles/berlinData/WEB/viewsSparql/view1_0.sparql";
-			outputPath = "/home/seb/Dropbox/stage/code/expfiles/berlinData/WEB/viewsN3/view1_0.n3";
-		} else {
-			queryPath = args[0];
-			outputPath = args[1];
+			return;
 		}
+		// queryPath =
+		// "/home/seb/Dropbox/stage/code/expfiles/berlinData/WEB/viewsSparql/view1_0.sparql";
+		// outputPath =
+		// "/home/seb/Dropbox/stage/code/expfiles/berlinData/WEB/viewsN3/view1_0.n3";
+		// } else {
+		queryPath = args[0];
+		outputPath = args[1];
+		// }
 
 		try {
 			w2.loadMappings();
