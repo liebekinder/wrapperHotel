@@ -39,19 +39,20 @@ import com.hp.hpl.jena.sparql.syntax.ElementPathBlock;
 public class Hotel {
 
 	public class UnknownProperty extends Exception {
-		
+
 		private static final long serialVersionUID = -2154805128624019618L;
 
 		public UnknownProperty(String name) {
 			System.err.println("Unknown property (" + name + ")");
 		}
 	}
-	
+
 	/**
 	 * 
 	 */
-	//private static final String LOCAL_DATA = "/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/hotel/hotel.xml";
-	
+	// private static final String LOCAL_DATA =
+	// "/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/hotel/hotel.xml";
+
 	/**
 	 * Our namespace prefix.
 	 */
@@ -65,24 +66,26 @@ public class Hotel {
 	/**
 	 * API URL.
 	 */
-	/*private static final String API_URL = "https://data.nantes.fr/api/publication/"
-			+ "22440002800011_CG44_TOU_04812/"
-			+ "activites_tourisme_et_handicap_STBL/content";*/
-	private static final String API_URL =
-		    "http://data.nantes.fr/api/publication/"
-				    + "22440002800011_CG44_TOU_04815/"
-				    + "hotels_STBL/content";
+	/*
+	 * private static final String API_URL =
+	 * "https://data.nantes.fr/api/publication/" +
+	 * "22440002800011_CG44_TOU_04812/" +
+	 * "activites_tourisme_et_handicap_STBL/content";
+	 */
+	private static final String API_URL = "http://data.nantes.fr/api/publication/"
+			+ "22440002800011_CG44_TOU_04815/" + "hotels_STBL/content";
 	/**
 	 * Ontology / XML data mapping file path.
 	 */
-	//private static final String MAPPING_FILE = "res/mapping2.properties";
-	private static final String MAPPING_FILE = "/home/nicnl/domains/semlav.nicnl.com/public_html/code/expfiles/berlinData/DATASET/n3dir/hotel/mapping2.properties";
+	// private static final String MAPPING_FILE = "res/mapping2.properties";
+	private static final String MAPPING_FILE = "/home/seb/Dropbox/stage/code/expfiles/berlinData/WEB/viewsN3/hotel/mapping2.properties";
 
 	/**
 	 * Ontology / API mapping file path.
 	 */
-	//private static final String MAPPING_API_FILE = "res/mapping_api.properties";
-	private static final String MAPPING_API_FILE = "/home/nicnl/domains/semlav.nicnl.com/public_html/code/expfiles/berlinData/DATASET/n3dir/hotel/mapping_api.properties";
+	// private static final String MAPPING_API_FILE =
+	// "res/mapping_api.properties";
+	private static final String MAPPING_API_FILE = "/home/seb/Dropbox/stage/code/expfiles/berlinData/WEB/viewsN3/hotel/mapping_api.properties";
 
 	/**
 	 * Ontology / XML data mapping.
@@ -98,11 +101,13 @@ public class Hotel {
 	 * Filters to add to API call
 	 */
 	private HashMap<String, String> filters_ = new HashMap<String, String>();
-	
+
 	/**
 	 * Query triples which do not contain literal.
 	 * 
-	 * <p>Triples that will be evaluated on the data returned by the API.</p> 
+	 * <p>
+	 * Triples that will be evaluated on the data returned by the API.
+	 * </p>
 	 */
 	private LinkedList<Triple> triples_ = new LinkedList<Triple>();
 
@@ -148,20 +153,20 @@ public class Hotel {
 	 * 
 	 * @param path
 	 *            Path of the query file
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	private void loadQuery(String path) throws IOException {
 		String qString = new String();
-		
+
 		BufferedReader reader = new BufferedReader(new FileReader(path));
 		String line = new String();
-		
-		while((line = reader.readLine()) != null) {
+
+		while ((line = reader.readLine()) != null) {
 			qString += line;
 		}
-		
+
 		Query query = QueryFactory.create(qString);
-		
+
 		PrefixMapping pm = query.getPrefixMapping();
 		Map<String, String> truc = pm.getNsPrefixMap();
 
@@ -191,8 +196,7 @@ public class Hotel {
 			}
 		}
 	}
-	
-	
+
 	private void buildApiCall() {
 		Boolean filter = false;
 
@@ -255,78 +259,77 @@ public class Hotel {
 		URLConnection connection = url.openConnection();
 		stream = connection.getInputStream();
 
-		//FileInputStream stream = new FileInputStream(LOCAL_DATA);
-		
+		// FileInputStream stream = new FileInputStream(LOCAL_DATA);
+
 		this.apiData_ = new SAXBuilder().build(stream);
 	}
 
-	private void processQuery()
-			throws IOException, JDOMException, UnknownProperty {
-		
+	private void processQuery() throws IOException, JDOMException,
+			UnknownProperty {
+
 		this.getData();
 
 		for (Triple triple : this.triples_) {
 			Node s = triple.getSubject();
 			Node p = triple.getPredicate();
 			Node o = triple.getObject();
-			
-			Element root = this.apiData_.getRootElement();
-			
-			List<Element> listeActi =
-					root.getChild("data").getChildren("element");
 
-			List<Pair<String, String>> mappings =
-					new ArrayList<Pair<String, String>>();
-			
+			Element root = this.apiData_.getRootElement();
+
+			List<Element> listeActi = root.getChild("data").getChildren(
+					"element");
+
+			List<Pair<String, String>> mappings = new ArrayList<Pair<String, String>>();
+
 			if (p.isVariable() == true) {
 				Set<String> keys = mapping_.keySet();
-				
-				for(String key : keys) {
-					mappings.add(
-							new Pair<String, String>(key, mapping_.get(key)));
+
+				for (String key : keys) {
+					mappings.add(new Pair<String, String>(key, mapping_
+							.get(key)));
 				}
 			}
-			
+
 			else {
 				mappings.add(new Pair<String, String>(p.getLocalName(),
 						mapping_.get(p.getLocalName())));
 			}
-			
-			if(mappings.isEmpty()) {
+
+			if (mappings.isEmpty()) {
 				throw new UnknownProperty(p.getLocalName() + ")");
 			}
-			
-			for(Pair<String, String> mapping : mappings) {
+
+			for (Pair<String, String> mapping : mappings) {
 				String value = mapping.getSecond();
 				String[] paths = value.split(",");
-	
+
 				Iterator<Element> actiIt = listeActi.iterator();
-	
+
 				int cnt = 0;
-	
+
 				while (actiIt.hasNext()) {
 					Element current = actiIt.next();
 					cnt++;
-					
+
 					for (int idxPath = 0; idxPath < paths.length; idxPath++) {
 						String path = paths[idxPath];
 						String[] elements = path.split("\\.");
-	
-						for (int idxElement = 0 ; idxElement < elements.length
-								&& current != null ; ++idxElement) {
-							
+
+						for (int idxElement = 0; idxElement < elements.length
+								&& current != null; ++idxElement) {
+
 							current = current.getChild(elements[idxElement]);
 						}
-	
+
 						if ((current != null)
 								&& (current.getValue().equals("null") == false)) {
-							
+
 							Resource res = resModel_.createResource(ONTO_URL
 									+ "hotelLocation" + cnt);
-							
+
 							Property prop = resModel_.createProperty(ONTO_URL
 									+ mapping.getFirst());
-							
+
 							res.addProperty(prop, current.getValue());
 						}
 					}
@@ -334,42 +337,45 @@ public class Hotel {
 			}
 		}
 	}
-	
+
 	/**
-	 * @param path Path of the query file
+	 * @param path
+	 *            Path of the query file
 	 * @throws IOException
 	 * @throws JDOMException
 	 * @throws UnknownProperty
 	 */
-	public void query(String path)
-			throws IOException, JDOMException, UnknownProperty {
-		
+	public void query(String path) throws IOException, JDOMException,
+			UnknownProperty {
+
 		this.loadQuery(path);
 		this.buildApiCall();
 		this.processQuery();
 	}
 
-	public Hotel(){
-//		System.setProperty("http.proxyHost", "cache.etu.univ-nantes.fr");
-//		System.setProperty("http.proxyPort", "3128");
+	public Hotel() {
+		System.setProperty("http.proxyHost", "cache.etu.univ-nantes.fr");
+		System.setProperty("http.proxyPort", "3128");
 	}
-	
+
 	public static void main(String[] args) {
-		
-		//SetProxy prox = new SetProxy();
-		
+
+		SetProxy prox = new SetProxy();
+
 		Hotel w2 = new Hotel();
 		String queryPath = new String();
 		String outputPath = new String();
-		
-		if(args.length < 2) {
+
+		if (args.length < 2) {
 			System.err.println("Error : argument(s) missing.");
-			return;
+			// return;
+			queryPath = "/home/seb/Dropbox/stage/code/expfiles/berlinData/WEB/viewsSparql/view1_0.sparql";
+			outputPath = "/home/seb/Dropbox/stage/code/expfiles/berlinData/WEB/viewsN3/view1_0.n3";
+		} else {
+			queryPath = args[0];
+			outputPath = args[1];
 		}
-		
-		queryPath = args[0];
-		outputPath = args[1];
-		
+
 		try {
 			w2.loadMappings();
 		}
@@ -384,21 +390,21 @@ public class Hotel {
 
 		try {
 			w2.query(queryPath);
-			
+
 			FileOutputStream outputStream = new FileOutputStream(outputPath);
 			w2.resModel_.write(outputStream, "N-TRIPLE");
 		}
-		
-		catch(UnknownHostException e) {
+
+		catch (UnknownHostException e) {
 			System.err.println("Erreur : connection au webservice echouee. "
 					+ "Nom d'hote inconnu. Veuillez verifier "
 					+ "votre connexion.");
 		}
-		
-		catch(FileNotFoundException e) {
+
+		catch (FileNotFoundException e) {
 			e.printStackTrace(System.err);
 		}
-		
+
 		catch (IOException e) {
 			e.printStackTrace(System.err);
 		}
@@ -406,7 +412,7 @@ public class Hotel {
 		catch (JDOMException e) {
 			e.printStackTrace(System.err);
 		}
-		
+
 		catch (UnknownProperty e) {
 			e.printStackTrace(System.err);
 		}
